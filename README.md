@@ -32,6 +32,36 @@ The outputs of the project are :
 - design documents, including the design process itself
 - build description
 
+## Preliminary design
+
+The system is very small and is not interfaced with other systems, except
+- The user
+- The camera
+
+Thus we will not write a complete system analysis of this. We will jump directly to the physical architecture design of our tool :
+
+![Physical Architecture](design/images/physicalArchitecture.svg)
+
+|Component role | Component choice | Comment |
+|---------------|------------------|---------|
+| Main unit     | Compound         | The main unit is composed of several other components.</br> A specific casing has to be be designed for it |
+| Control unit (hardware) | Arduino Nano | An arduino nano microcontroler would fullfill all the needs : </br>- low price</br>- low dimensions</br>- low electric cosumption</br> - capacity to interact with simple electronic components |
+| **Control unit (software)**| Specific code| This will be one of the subjects of this project. It has to make the link between the differents componetns of the tool |
+| Electrical power | Battery | The detailed design of the battery part has to be defined later. </br>The use of battery allow a more practical usage of the tool. </br>The low consumption of the arduino allow to use it without a to high battery consuption |
+| Power switch | Flip flop switch | A "hard" power switch will be preferred rather than a standby push button, in orther to not use the battery at all when not in use |
+| Reset button | Push button | The Reset button will be able to erase the previous result and start a new measure |
+| Control led| Led | the control led will help the operator to see that the light sensor is currently detecting light (when the shutter is open, if the light source and the light sensor are correctly positionned)|
+|Display| 2x16 LCD| A 2x16 LCD is very common, low price and easy to control with an Arduino|
+|Light source| Led| The light source wavelength has to be chosen in accordance with the light sensor sensitivity. </br>It has to be mounted on a physical support that allows to adjust the position according the tested camera|
+| Light Sensor | Phototransistor | A phototransistor is a good compromise between a low price, a good sensitivity and a low reaction time.</br> A specific support has to be designed, maybe according different film formats, in order allow a good position on the camera back, in order to easily detect the source light and not be influenced by environment light |
+
+## General design process
+
+The design process will be split in multiple steps. The idea is to first derisk all that may be tricky.  
+At first the electrical circuits design and software components will be tested using a solderless breadboard.  
+When all work well, a dedicated motherboard will be designed and manufactured.  
+A dedicated casing and mecanical support will be draw and 3D printed.
+
 ## Design & development tools
 
 The design & development tools are the following
@@ -40,28 +70,5 @@ The design & development tools are the following
 | Fritzing      | 0.9.3 | Electronic component & circuit design       | https://fritzing.org/ |
 | Arduino IDE   | 1.8.16 |Arduino cross development IDE    | https://www.arduino.cc/en/software |
 | VSCode | 1.62.0 | General purpose code editor | https://code.visualstudio.com/ |
-
-## Physical architecture
-
-The shutter speed tester is composed of the following elements 
-- The main unit, composed of
-  - a power switch
-  - a microcontroler device (Arduino) that computes the results and integrates all the elements
-  - a display lcd
-  - a control led
-  - a reset button
-  - a power element (battery)
-  - the casing of the main unit
-- The enlighting element, used to enlight the lens or directly the front side of the camera shutter
-  - an enlighting led
-- The light sensor
-  - a light sensor that detects the light at the rear side of the camera shutter
-  - the adapter to the camera's back
-- Wiring
-  - between the main unit and the enlighting element
-  - between the main unit and the sensor element
-
-## Software code
-
-The microcontroler has to be programmated in order to make the link between the sensor and the display, and the interface buttons
+| Drawio integration | 1.6.201 | Integration of Drawio tool into VSCode IDE |
 

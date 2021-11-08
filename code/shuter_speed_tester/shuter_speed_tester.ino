@@ -31,7 +31,7 @@ void loop() {
 
 void callback() {
     previous_time = current_time;
-    current_time = millis();
+    current_time = micros();
     if ( digitalRead(sensor_pin) == 0 ) {
         event = UP_EVENT;
     } else {
