@@ -1,5 +1,11 @@
 # Development Stories
 
+## 0. Experimention : How to detect the opening a camera shutter
+
+### Description
+
+The aim of this story is to choose the right components and the right electronic schema in order to be able to detect the opening of a camera shutter, i.e how to detect a light source with a light sensor
+
 ## 1. Detection of the time interval between rising and falling edges of the shutter
 
 ### Description 
