@@ -16,11 +16,12 @@ With the following schema, it would be possible to check different values of res
 * The voltage value induced by the phototransistor current, depending on the light illuminated it
 * Which light intensity, for different resistor value, allow to swich the digital port of the Arduino
 
-As a ligth source, we will use a standad led component, directly wired on the 5V output of the Arduino. A 220 Ohm resistor is used to get an intensity less than 20 mA.  
+As a ligth source, we will use a standad led component, directly wired on the 5V output of the Arduino.  A 220 Ohm resistor is used to get an intensity less than 20 mA.  
+20 mA is the maximum current value recommended for both Arduino output (even not used in this experimentation) and for a standard LED.  
 $$
-I = U/R = \frac{(5.0 - 2.2)}{220} \approxeq 13 mA
+I = U/R = \frac{(5.0 - 1.2)}{220} \approxeq 17 mA
 $$  
-(The direct voltage of the Led is 2.2V)  
+(The direct voltage of the Led is 1.2V)  
 
 And here is the schema :
 ![Experimentation schema](DevelopmentSteps/Step0_Experimentation/experimentation/Experimentation_bb.png)
@@ -99,13 +100,16 @@ https://lederniermatou.net/arduino-et-phototransistor.html
 
 ### Realisation
 
-The following circuit has been realized, using the indications found in the referenced bibliography :  
+The following circuit has been realized, based on the experimentation :  
 
 ![Schema](DevelopmentSteps/Step1_EdgesDetection/EdgesDetection_schema.png)  
 
 ![Bread board](DevelopmentSteps/Step1_EdgesDetection/EdgesDetection_bb.png)
 
 ### Code
+
+@See EdgesDetection.ino
+
 
 
 
