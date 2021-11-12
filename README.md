@@ -72,3 +72,9 @@ The design & development tools are the following
 | VSCode | 1.62.0 | General purpose code editor | https://code.visualstudio.com/ |
 | Drawio integration | 1.6.201 | Integration of Drawio tool into VSCode IDE |
 
+## Part list
+| Name | Description | Aprox. Price | Reference |
+| ----- | -------------| ---------- | ------ |
+| High power Led | A 8000 mcd red led | 0.62 € | https://www.conrad.fr/p/kingbright-l-7113sec-j3-led-rouge-rond-5-mm-8000-mcd-20-20-ma-22-v-1050453 |
+
+
