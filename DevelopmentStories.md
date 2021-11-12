@@ -19,7 +19,7 @@ With the following schema, it would be possible to check different values of res
 As a ligth source, we will use a standad led component, directly wired on the 5V output of the Arduino. A 220 Ohm resistor is used to get an intensity less than 20 mA.  
 $$
 I = U/R = \frac{(5.0 - 2.2)}{220} \approxeq 13 mA
-$$
+$$  
 (The direct voltage of the Led is 2.2V)  
 
 And here is the schema :
@@ -60,6 +60,21 @@ void loop() {
 }
 ````
 
+### Results
+
+The higher is the resistor value between the phototransistor, the more sensitive is the result.
+- With a 1k Ohm resistor, the measured voltage change a little when putting the phototransistor in front of the led  
+- The sensibility increases with increasing value of resistor
+- When using 1M Ohm resistor, it is possible to change the input state at a ~ 5cm distance
+- When using 4x1M Ohm resistors (serial circut), it is even possible to change the state at 10 cm
+
+Questions :
+- What is the limit of increasing sensibility ?
+- Is there a side efect of increasing the resistor, as for instance a longer reactivity ?
+- Is it better to use a more powerfull LED or highr resistor value ?
+
+
+
 ## 1. Detection of the time interval between rising and falling edges of the shutter
 
 ### Description 
@@ -74,7 +89,7 @@ The result output may be written (and read) on the serial port of the Arduino
 
 ### acceptance criteria
 The system detects the rising and falling edges of the shutter
-The system computes the time differences between
+The system computes the time differences between rising and falling edges
 
 
 ### Bibliography
