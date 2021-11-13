@@ -108,6 +108,43 @@ The implementation of the state diagram needs :
 
 [State diagram Code](DevelopmentSteps/Step2_BehaviourStates/BehaviourStates/BehaviourStates.ino)
 
+## 3. Add control LED
+
+### Description  
+
+After the previous step, which was very complex, this one will be very easy.  
+The goal is to add a control LED, that is lit when the phototransistor detects light. This helps the user to see that the illumination LED and the light sensor are correctly positionned.  
+The control LED has to be switched on only during the "Shutter open" state.
+
+### Realisation schema
+
+Here is the realisation schema for this new element :  
+
+![Control LED breadboard](DevelopmentSteps/Step3_ControlLED/ControlLED_bb.png)  
+
+![Control LED schema](DevelopmentSteps/Step3_ControlLED/ControlLED_schema.png)
+
+### Code  
+
+In order to prevent the control LED to be too bright, we use the PWM capability of the Arduino
+
+[Control LED](DevelopmentSteps/Step3_ControlLED/ControlLED/ControlLED.ino)
+
+
+## 4. Display on LCD screen
+
+### Description  
+
+All the previous experimentation and coding used the serial port of the Arduino to write the results.  
+However, the target is to diplay the messages and the measure result on a dedicated display.  
+The most common and cheap display are 16x2 LCD display. They can be addressed directly, or through an I2C interface.  
+We will use this second option for the following reasons :  
+- less wires from the Arduino to the LCD
+- The IC2 interface integrates a potentiometer that adjusts the LCD screen contrast. So it hasn't to be added in the rest of the schema
+
+
+
+
 
 
 
