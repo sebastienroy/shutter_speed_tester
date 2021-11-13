@@ -38,7 +38,7 @@ The following code will allow to get written on the serial of the Arduino, every
 The higher is the resistor value between the phototransistor, the more sensitive is the result.
 - With a 1k Ohm resistor, the measured voltage change a little when putting the phototransistor in front of the led  
 - The sensibility increases with increasing value of resistor
-- When using 1M Ohm resistor, it is possible to change the input state at a ~ 5cm distance
+- When using 1M Ohm resistor, it is possible to change the input state at a ~ 5 cm distance
 - When using 4x1M Ohm resistors (serial circuit), it is even possible to change the state at 10 cm
 
 Questions :
@@ -88,8 +88,8 @@ Note that, in order to use the interupt capacity of the Arduino, only the D2 or 
 ### Description
 
 The goal of this step is to implement the complete state diagram of the expected behaviour of the tool.  
-The idea is to light on the source led only when the user is ready to start the measure, and to switch it off as soon the measure is performed.  
-A button allow to start a new measure.
+The idea is to light on the source LED only when the user is ready to start the measure, and to switch it off as soon as the measure is performed.  
+A button allows to start a new measure.
 
 State diagram :
 
@@ -97,8 +97,8 @@ State diagram :
 
 ### Realisation schema :
 The implementation of the state diagram needs :
-- a way to switch on and off the illuantion led. The choice is to achieve this using a command transistor. The justification of this is that it allows to use a LED that consumes more than 20 mA without deteriorating the Arduino pin.
-- a push button in order to be able to start the measure again  
+- a way to switch on and off the illumination LED. The choice is to achieve this using a command transistor. The justification of this is that it allows to use a LED that uses more than 20 mA, without deteriorating the Arduino pin.
+- a push button in order to be able to start the measure again.  
 
 ![State diagram breadboard](DevelopmentSteps/Step2_BehaviourStates/BehaviourStates_bb.png)  
 
