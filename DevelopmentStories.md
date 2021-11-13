@@ -106,10 +106,34 @@ The following circuit has been realized, based on the experimentation :
 
 ![Bread board](DevelopmentSteps/Step1_EdgesDetection/EdgesDetection_bb.png)
 
+Note that, in order to use the interupt capacity of the Arduino, only the D2 or D3 pins may be used for the phototransistor state change. The interrupt capacity is not available on the other pins.  
+
 ### Code
 
-@See EdgesDetection.ino
+[Edges detection code](DevelopmentSteps/Step1_EdgesDetection/EdgesDetection/EdgesDetection.ino)
 
+## 2. Implementation of behaviour states
+
+### Description
+
+The goal of this step is to implement the complete state diagram of the expected behaviour of the tool.  
+The idea is to light on the source led only when the user is ready to start the measure, and to switch it off as soon the measure is performed.  
+A button allow to start a new measure.
+
+State diagram :
+
+![Behaviour state diagram](DevelopmentSteps/Step2_BehaviourStates/stateDiagram.svg)
+
+### Realisation schema :
+The implementation of the state diagram needs :
+- a way to switch on and off the illuantion led. The choice is to achieve this using a command transistor. The justification of this is that it allows to use a LED that consumes more than 20 mA without deteriorating the Arduino pin.
+- a push button in order to be able to start the measure again  
+
+![State diagram breadboard](DevelopmentSteps/Step2_BehaviourStates/BehaviourStates_bb.png)  
+
+![State diagram schema](DevelopmentSteps/Step2_BehaviourStates/BehaviourStates_schema.png)
+
+[State diagram Code](DevelopmentSteps/Step2_BehaviourStates/BehaviourStates/BehaviourStates.ino)
 
 
 
