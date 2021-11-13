@@ -72,6 +72,10 @@ The design & development tools are the following
 | VSCode | 1.62.0 | General purpose code editor | https://code.visualstudio.com/ |
 | Drawio integration | 1.6.201 | Integration of Drawio tool into VSCode IDE |
 
+## Developpement steps description
+
+[Development steps](DevelopmentStories.md)
+
 ## Part list
 | Name | Description | Aprox. Price | Reference |
 | ----- | -------------| ---------- | ------ |
