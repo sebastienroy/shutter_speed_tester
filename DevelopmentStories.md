@@ -140,7 +140,40 @@ However, the target is to diplay the messages and the measure result on a dedica
 The most common and cheap display are 16x2 LCD display. They can be addressed directly, or through an I2C interface.  
 We will use this second option for the following reasons :  
 - less wires from the Arduino to the LCD
-- The IC2 interface integrates a potentiometer that adjusts the LCD screen contrast. So it hasn't to be added in the rest of the schema
+- The IC2 interface integrates a potentiometer that adjusts the LCD screen contrast. So it hasn't to be added in the rest of the schema  
+
+The SDA and SCL pins of the I2C interface have to be wired respectivlely on A4 and A5 pins of the Arduino.
+
+![LCD Display breadboard](DevelopmentSteps/Step4_LCDDisplay/LCDDisplay_bb.png)  
+
+![LCD Display schema](DevelopmentSteps/Step4_LCDDisplay/LCDDisplay_schema.png)
+
+### Code
+
+The code uses the [LiquidCrystal_I2C library](https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c)
+
+And here is the code result :
+[Code for LCD Display](DevelopmentSteps/Step4_LCDDisplay/LCDDisplay/LCDDisplay.ino)
+
+## 4. Bonus : create a sleeping mode
+
+### Description  
+
+The sleeping mode is intended to prevent the battery to get empty too fast when forgetting to switch off the device.
+
+## 5. Create the Printed Circuit Board (PCB)
+
+### Description  
+
+The goal of this step is to create a PCB for our device
+For the previous steps, we used Fritzing for the circuit description, because it is very convenied to draw quickly both schema and breadboard sketch.  
+However, for the design of the target PCB, we will use a more precise design tool : Kicad.  
+
+
+
+
+
+
 
 
 
