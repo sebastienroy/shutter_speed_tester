@@ -35,7 +35,6 @@ void loop() {
 
 void shutter_cb() {
   unsigned long current_time = micros();
-  float time_mili;
   event_type = ( digitalRead(SENSOR_PIN) == 0 )? CLOSING : OPENING;
   if(event_type == OPENING) {
     begin_time = current_time;

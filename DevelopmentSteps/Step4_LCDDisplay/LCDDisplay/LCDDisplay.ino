@@ -34,7 +34,7 @@ byte current_state = READY_STATE;
 unsigned long begin_time = 0;
 unsigned long end_time = 0;
 
-LiquidCrystal_I2C lcd(0x3f,16,2);  // set the LCD address to 0x3f7 for a 16 chars and 2 line display
+LiquidCrystal_I2C lcd(0x3f,16,2);  // set the LCD address to 0x3f for a 16 chars and 2 lines display
                                    // the I2C address value has to be determined using an I2C scanner
 
 void setup() {
@@ -152,7 +152,6 @@ void enterDisplayState() {
 
 void shutter_cb() {
   unsigned long current_time = micros();
-  float time_mili;
   event_type = ( digitalRead(SENSOR_PIN) == OFF )? CLOSING : OPENING;
   if(event_type == OPENING) {
     begin_time = current_time;
