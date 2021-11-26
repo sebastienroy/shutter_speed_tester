@@ -80,5 +80,6 @@ The design & development tools are the following
 | Name | Description | Aprox. Price | Reference |
 | ----- | -------------| ---------- | ------ |
 | High power Led | A 8000 mcd red led | 0.62 € | https://www.conrad.fr/p/kingbright-l-7113sec-j3-led-rouge-rond-5-mm-8000-mcd-20-20-ma-22-v-1050453 |
+|JST XH connector|    |   |   |
 
 
