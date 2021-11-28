@@ -68,9 +68,12 @@ The design & development tools are the following
 | Tool name      | Version  | Purpose     | link                            |
 | -------------- | -- | ----------- | ------------------------------- |
 | Fritzing      | 0.9.3 | Electronic component & circuit design       | https://fritzing.org/ |
+| KiCad | 5.1.12 | Electronic component & circuit design| https://www.kicad.org/ |
+| FreeCad | 0.19.2 | 3D modeling | https://www.freecadweb.org/ |
 | Arduino IDE   | 1.8.16 |Arduino cross development IDE    | https://www.arduino.cc/en/software |
 | VSCode | 1.62.0 | General purpose code editor | https://code.visualstudio.com/ |
 | Drawio integration | 1.6.201 | Integration of Drawio tool into VSCode IDE |
+
 
 ## Developpement steps description
 
