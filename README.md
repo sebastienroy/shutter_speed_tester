@@ -80,5 +80,15 @@ The design & development tools are the following
 | Name | Description | Aprox. Price | Reference |
 | ----- | -------------| ---------- | ------ |
 | High power Led | A 8000 mcd red led | 0.62 € | https://www.conrad.fr/p/kingbright-l-7113sec-j3-led-rouge-rond-5-mm-8000-mcd-20-20-ma-22-v-1050453 |
-
-
+| Green LED | | | |
+| Push button | | | |
+| Power switch button| | | | 
+| JST XH connector or </br> molex 6410 / KF2510 connector |    |   |   |
+| Arduino nano | | | |
+| Resistor | | | |
+| LCD 1602 I2C | | | |
+| Phototransistor | | | |
+| Transistor 2N2222| | | |
+| Jack audio mono 3.5mm socket | | | |
+| Jack audio male connector | | | |
+| Wire ||||
