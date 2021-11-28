@@ -83,7 +83,7 @@ The design & development tools are the following
 | Green LED | | | |
 | Push button | | | |
 | Power switch button| | | | 
-| JST XH connector or </br> pcb 6410 2.54mm connector |    |   |   |
+| JST XH connector or </br> molex 6410 / KF2510 connector |    |   |   |
 | Arduino nano | | | |
 | Resistor | | | |
 | LCD 1602 I2C | | | |
