@@ -66,7 +66,7 @@ F 1 "Power" H 8080 3951 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8000 4050 50  0001 C CNN
 F 3 "~" H 8000 4050 50  0001 C CNN
 	1    8000 4050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L MCU_Module:Arduino_Nano_v3.x A1
@@ -81,8 +81,6 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5650 3400 50
 $EndComp
 Wire Wire Line
 	5550 1650 5550 2400
-Wire Wire Line
-	7800 4150 7800 5150
 Wire Wire Line
 	5750 5150 5750 4400
 Wire Wire Line
@@ -346,7 +344,7 @@ NoConn ~ 5150 2800
 NoConn ~ 5750 2400
 Connection ~ 6150 1650
 Wire Wire Line
-	7800 1650 7800 4050
+	7800 1650 7800 3950
 Wire Wire Line
 	7800 1650 6150 1650
 $Comp
@@ -395,4 +393,6 @@ F 3 "~" H 3550 2850 50  0001 C CNN
 	1    3550 2850
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7800 4050 7800 5150
 $EndSCHEMATC
