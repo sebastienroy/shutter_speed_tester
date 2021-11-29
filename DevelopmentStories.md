@@ -155,19 +155,71 @@ The code uses the [LiquidCrystal_I2C library](https://www.arduinolibraries.info/
 And here is the code result :
 [Code for LCD Display](DevelopmentSteps/Step4_LCDDisplay/LCDDisplay/LCDDisplay.ino)
 
-## 4. Bonus : create a sleeping mode
+## 5. Bonus : create a sleeping mode
 
 ### Description  
 
 The sleeping mode is intended to prevent the battery to get empty too fast when forgetting to switch off the device.
 
-## 5. Create the Printed Circuit Board (PCB)
+## 6. Create the Printed Circuit Board (PCB)
 
 ### Description  
 
 The goal of this step is to create a PCB for our device
 For the previous steps, we used Fritzing for the circuit description, because it is very convenied to draw quickly both schema and breadboard sketch.  
 However, for the design of the target PCB, we will use a more precise design tool : Kicad.  
+### Realisation
+The first step is to create an empty project :  
+[Kicad project](design/Kicad_shutter_speed_tester/shutter_speed_tester.pro)  
+
+Then, the secon step is to create a schema.
+The goal of the schema is different from that drawn with Fritzing : the goal is not to describe the whole circuit, but to focus on the main board of the tool.  
+So some choices have to be made, mainly concerning the interfaces of this board :
+* Internal interfaces  
+  * I2C LCD
+  * Power
+* External interfaces
+  * Light source LED
+  * Light Sensor
+
+| Internal Interfaces| Interface implementation |  
+|---|---|
+| I2C LCD | 4 pins PCB header |
+| Power | 2 pins PCB header|
+| Arduino socket | the Arduino will not be directly soldered on the main board, but placed on it using 2 rows of 15 pins female Dupont headers |
+
+| External interfaces | Interface implementation|
+| --- | --- |
+| Light source LED | One option is to have a socket, such as an audio jack socket, directly soldered on the PCB, that socket would be accessible through a hole made at the side of the case. Such an option makes difficult the general design of the PCB and is considered as too constraining.</br>The following solution is prefered : an internal PCB header is placed on the board. From this header is connected a wire, directly connected to the light source LED, or through a second connector placed at the side of the case. So the choice is :</br>2 pins PCB header |
+| Light Sensor| The options, and the prefered one, are exactly the same as those described for the light source LED :</br>2 pins PCB header |
+| Reset button| The choice is to place the reset button on the main board, and will be mechanically accessible to the operator using a button placed through the case |
+| Control LED | As for the reset button, the control LED will be soldered on the main board, and accessible to the operator through the case |
+
+Conclusions : 
+On the schema, the power, the light source, the light sensor and the lcd will not be present, but instead a connector will be used
+
+Result : 
+![PCB schema](DevelopmentSteps/Step6_PCBDesign/schema.PNG)
+
+After the schema design, before beginning the physical design of the board, it is necessary to assign a physical component to each of the schematic component.  
+For all the PCB headers, we decide to use Molex 6410 headers (they are also referenced KF2510, depending on the provider).  These headers are low priced, and cannot be plugged in the wrong way.
+
+Here are the correspondance between the shematic components and the components footprints (the real components) :
+
+![Components footprints](DevelopmentSteps/Step6_PCBDesign/ComponentsFootprints.PNG)
+
+And then, the physical PCB can be designed :
+![PCB Design](DevelopmentSteps/Step6_PCBDesign/PCB.PNG)
+
+Note that the switch and the controled LED are placed at the back side of the board.
+Note also that no via was used for the board design
+
+And finally, the 3D views :
+![Front side](DevelopmentSteps/Step6_PCBDesign/3DFrontSide.PNG)
+
+![Rear side](DevelopmentSteps/Step6_PCBDesign/3DRearSide.PNG)
+
+
 
 
 
