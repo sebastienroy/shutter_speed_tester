@@ -85,7 +85,7 @@ The design & development tools are the following
 | High power Led | A 8000 mcd red led | 0.62 € | 1050453 - LED 5 mm L-7113SEC-J3</br>https://www.conrad.fr/p/kingbright-l-7113sec-j3-led-rouge-rond-5-mm-8000-mcd-20-20-ma-22-v-1050453 |
 | Green LED | | 0.17 € | 180180 - LED 5 MM SUPER LUMIN TYPE L-7113CGDK</br>https://www.conrad.fr/p/kingbright-l-7113cgdk-led-vert-rond-5-mm-140-mcd-30-20-ma-21-v-180180|
 | Push button | | 0.23 €| 705338 - INTERRUPTEUR LOW COST JTP-1230L</br>https://www.conrad.fr/p/namae-electronics-jtp-1130l-bouton-poussoir-a-pression-12-vdc-005-a-1-x-offon-a-rappel-1-pcs-705338 |
-| Power switch button| | 1.53 € | 1587528 - Inter à bascule TC-R13-70A-01</br>https://www.conrad.fr/p/interrupteur-a-bascule-tru-components-tc-r13-70a-01-1587528-24-vdc-10-a-1-x-offon-a-accrochage-1-pcs-1587528 | 
+| Toggle switch | Used as power switch | 1.53 € | 1587528 - Inter à bascule TC-R13-70A-01</br>https://www.conrad.fr/p/interrupteur-a-bascule-tru-components-tc-r13-70a-01-1587528-24-vdc-10-a-1-x-offon-a-accrochage-1-pcs-1587528 | 
 | JST XH connector or </br> molex 6410 / KF2510 connector |  molex 6410 are finally used  |   |   |
 | Arduino nano | | 13 € | https://www.conrad.fr/p/tru-components-carte-de-developpement-atmega328-nano-development-board-2134126 |
 | Resistors | | | |
