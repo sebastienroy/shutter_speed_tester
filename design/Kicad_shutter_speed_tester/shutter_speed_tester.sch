@@ -58,10 +58,10 @@ F 3 "~" H 4000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J3
 U 1 1 619F5383
 P 8000 4050
-F 0 "J4" H 8080 4042 50  0000 L CNN
+F 0 "J3" H 8080 4042 50  0000 L CNN
 F 1 "Power" H 8080 3951 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8000 4050 50  0001 C CNN
 F 3 "~" H 8000 4050 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "~" H 4600 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x04 J4
 U 1 1 61A01F58
 P 7200 3450
-F 0 "J3" H 7280 3442 50  0000 L CNN
+F 0 "J4" H 7280 3442 50  0000 L CNN
 F 1 "LCD" H 7280 3351 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 7200 3450 50  0001 C CNN
 F 3 "~" H 7200 3450 50  0001 C CNN
@@ -372,10 +372,10 @@ $EndComp
 Wire Wire Line
 	8900 4800 8900 5000
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J1
 U 1 1 61A421B1
 P 3550 3400
-F 0 "J2" H 3468 3617 50  0000 C CNN
+F 0 "J1" H 3468 3617 50  0000 C CNN
 F 1 "Light source LED" H 3468 3526 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3550 3400 50  0001 C CNN
 F 3 "~" H 3550 3400 50  0001 C CNN
@@ -383,10 +383,10 @@ F 3 "~" H 3550 3400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 J2
 U 1 1 61A42B79
 P 3550 2850
-F 0 "J1" H 3468 3067 50  0000 C CNN
+F 0 "J2" H 3468 3067 50  0000 C CNN
 F 1 "Light Sensor" H 3468 2976 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3550 2850 50  0001 C CNN
 F 3 "~" H 3550 2850 50  0001 C CNN
