@@ -92,7 +92,7 @@ The design & development tools are the following
 | JST XH connector or </br> molex 6410 / KF2510 connector |  molex 6410 are finally used  |   |   |
 | Arduino nano | | 13 € | https://www.conrad.fr/p/tru-components-carte-de-developpement-atmega328-nano-development-board-2134126 |
 | Resistors | | | |
-| LCD 1602 I2C | | 9.49 € | https://www.conrad.fr/p/display-elektronik-ecran-lcd-l-x-h-x-p-80-x-36-x-66-mm-2238769|
+| LCD 1602 | | 9.49 € | https://www.conrad.fr/p/display-elektronik-ecran-lcd-16-x-2-pixel-l-x-h-x-p-80-x-36-x-66-mm-2238810|
 | I2C Interface for LCD || 4.50 € | https://www.conrad.fr/p/iduino-me033-1-pcs-2315239 |
 | Phototransistor | | 0.90 €| 153870 - PHOTOTRANS. SFH309-5/6/CT1</br>https://www.conrad.fr/p/osram-phototransistor-3-mm-1080-nm-12-sfh-309-153870|
 | Transistor 2N2222| NPN Transistor | 0.10 € | 1265001 - Transistor bipolaire PN2222ATA</br>https://www.conrad.fr/p/on-semiconductor-transistor-bjt-discret-pn2222ata-to-92-3-1-npn-1265001|
