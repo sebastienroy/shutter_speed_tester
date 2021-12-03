@@ -48,7 +48,7 @@ Thus we will not write a complete system analysis of this. We will jump directly
 | Control unit (hardware) | Arduino Nano | An arduino nano microcontroler would fullfill all the needs : </br>- low price</br>- low dimensions</br>- low electric cosumption</br> - capacity to interact with simple electronic components |
 | **Control unit (software)**| **Specific code** | This will be one of the subjects of this project. It has to make the link between the differents componetns of the tool |
 | **Mother board** | **Specific design** | A specific PCB has to be designed to integrate all the different components of the tool. Once designed, it can be manufactured by any PCB manufacturer |
-| Electrical power | Battery | The detailed design of the battery part has to be defined later. </br>The use of battery allow a more practical usage of the tool. </br>The low consumption of the arduino allow to use it without a to high battery consuption |
+| Electrical power | Battery | The detailed design of the battery part has to be defined later. </br>The use of battery allow a more practical usage of the tool. </br>The low consumption of the arduino allow to use it without a to high battery consuption.</br>However, the USB port of the Arduino may be used as a opportunity to power the system without using a battery |
 | Power switch | Flip flop switch | A "hard" power switch will be preferred rather than a standby push button, in orther to not use the battery at all when not in use |
 | Reset button | Push button | The Reset button will be able to erase the previous result and start a new measure |
 | Control led| Led | the control led will help the operator to see that the light sensor is currently detecting light (when the shutter is open, if the light source and the light sensor are correctly positionned)|
@@ -97,6 +97,6 @@ The design & development tools are the following
 | Phototransistor | | 0.90 €| 153870 - PHOTOTRANS. SFH309-5/6/CT1</br>https://www.conrad.fr/p/osram-phototransistor-3-mm-1080-nm-12-sfh-309-153870|
 | Transistor 2N2222| NPN Transistor | 0.10 € | 1265001 - Transistor bipolaire PN2222ATA</br>https://www.conrad.fr/p/on-semiconductor-transistor-bjt-discret-pn2222ata-to-92-3-1-npn-1265001|
 | Jack audio mono 3.5mm female socket | | 0.88 € | https://www.conrad.fr/p/jack-35-mm-embase-femelle-verticale-tru-components-718672-nombre-de-poles-num-2-mono-noir-1-pcs-1567107 |
-| Jack audio male male connector | | 1.60 € | https://www.conrad.fr/p/tru-components-93038c440-cable-de-connexion-jack-jack-male-35-mm-extremites-ouvertes-mono-1-pcs-1662323 |
+| Jack audio male connector | | 1.60 € | https://www.conrad.fr/p/tru-components-93038c440-cable-de-connexion-jack-jack-male-35-mm-extremites-ouvertes-mono-1-pcs-1662323 |
 | Wire || 0.54 €| 457844 - Câble audio NF1106005</br>https://www.conrad.fr/p/bkl-electronic-1106005-cable-audio-1-x-010-mm-noir-marchandise-vendue-au-metre-457844|
 | 9V battery connector | | 0.55 € | https://www.conrad.fr/p/connecteur-clip-pression-1x-6lr61-9-v-beltrona-9v-t-clip-raccordement-par-empreinte-pile-9v-l-x-l-x-h-26-x-13-x-8-mm-490660 |
