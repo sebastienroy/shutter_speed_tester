@@ -2,6 +2,7 @@
  * Shutter Speed Tester
  * https://github.com/sebastienroy/shutter_speed_tester
  * Created by Sebastien ROY
+ * 2021-2022
  * 
  * Licenced under LGPL 2.1
  * 
@@ -51,6 +52,7 @@ void setup() {
     // Init LCD
     lcd.init();                      // initialize the lcd 
     lcd.backlight();
+    lcd.noCursor();
     lcdDisplayReady();
     
     // Light ON
