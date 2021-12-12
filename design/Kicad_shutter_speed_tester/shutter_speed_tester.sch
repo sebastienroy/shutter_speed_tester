@@ -91,12 +91,12 @@ Wire Wire Line
 	5650 5150 5750 5150
 Connection ~ 5750 5150
 $Comp
-L Device:R R1
+L Device:R R3
 U 1 1 619FF074
 P 4600 4650
-F 0 "R1" H 4670 4696 50  0000 L CNN
+F 0 "R3" H 4670 4696 50  0000 L CNN
 F 1 "1M" H 4670 4605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4530 4650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4530 4650 50  0001 C CNN
 F 3 "~" H 4600 4650 50  0001 C CNN
 	1    4600 4650
 	1    0    0    -1  
@@ -199,18 +199,18 @@ U 1 1 61A08ADF
 P 4000 4500
 F 0 "Q1" H 4191 4546 50  0000 L CNN
 F 1 "PN2222A" H 4191 4455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4200 4425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4200 4425 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 4000 4500 50  0001 L CNN
 	1    4000 4500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R5
 U 1 1 61A0A5DF
 P 4400 3700
-F 0 "R4" H 4470 3746 50  0000 L CNN
+F 0 "R5" H 4470 3746 50  0000 L CNN
 F 1 "1k" H 4470 3655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4330 3700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4330 3700 50  0001 C CNN
 F 3 "~" H 4400 3700 50  0001 C CNN
 	1    4400 3700
 	1    0    0    -1  
@@ -228,12 +228,12 @@ Wire Wire Line
 	4100 3500 3750 3500
 Connection ~ 4100 2950
 $Comp
-L Device:R R2
+L Device:R R1
 U 1 1 61A0D8F9
 P 3900 4000
-F 0 "R2" H 3970 4046 50  0000 L CNN
+F 0 "R1" H 3970 4046 50  0000 L CNN
 F 1 "220" H 3970 3955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3830 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 4000 50  0001 C CNN
 F 3 "~" H 3900 4000 50  0001 C CNN
 	1    3900 4000
 	1    0    0    -1  
@@ -269,12 +269,12 @@ Wire Wire Line
 Wire Wire Line
 	2750 3200 2750 2600
 $Comp
-L Device:R R3
+L Device:R R4
 U 1 1 61A1C5D0
 P 2750 3950
-F 0 "R3" H 2820 3996 50  0000 L CNN
+F 0 "R4" H 2820 3996 50  0000 L CNN
 F 1 "10k" H 2820 3905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2680 3950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2680 3950 50  0001 C CNN
 F 3 "~" H 2750 3950 50  0001 C CNN
 	1    2750 3950
 	1    0    0    -1  
@@ -301,12 +301,12 @@ F 3 "~" H 4900 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R2
 U 1 1 61A22621
 P 4900 4750
-F 0 "R5" H 4970 4796 50  0000 L CNN
+F 0 "R2" H 4970 4796 50  0000 L CNN
 F 1 "1k" H 4970 4705 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4830 4750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4830 4750 50  0001 C CNN
 F 3 "~" H 4900 4750 50  0001 C CNN
 	1    4900 4750
 	1    0    0    -1  
@@ -376,7 +376,7 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 61A421B1
 P 3550 3400
 F 0 "J1" H 3468 3617 50  0000 C CNN
-F 1 "Light source LED" H 3468 3526 50  0000 C CNN
+F 1 "Light source" H 3468 3526 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3550 3400 50  0001 C CNN
 F 3 "~" H 3550 3400 50  0001 C CNN
 	1    3550 3400
