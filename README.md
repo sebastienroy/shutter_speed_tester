@@ -84,7 +84,7 @@ The design & development tools are the following
 ## Part list
 | Name | Description | Aprox. Price | Reference |
 | ----- | -------------| ---------- | ------ |
-| Main board | The board designed for shutter speed tester purpose | 12.73 € (3 pcs) | https://aisler.net/p/NGWECDGA |
+| Main board | The board designed for shutter speed tester purpose | 12.73 € / 3 pcs | https://aisler.net/p/NGWECDGA |
 | High power Led | A 8000 mcd red led | 0.62 € | 1050453 - LED 5 mm L-7113SEC-J3</br>https://www.conrad.fr/p/kingbright-l-7113sec-j3-led-rouge-rond-5-mm-8000-mcd-20-20-ma-22-v-1050453 |
 | Green LED | | 0.17 € | 180180 - LED 5 MM SUPER LUMIN TYPE L-7113CGDK</br>https://www.conrad.fr/p/kingbright-l-7113cgdk-led-vert-rond-5-mm-140-mcd-30-20-ma-21-v-180180|
 | Push button | | 0.23 €| 705338 - INTERRUPTEUR LOW COST JTP-1230L</br>https://www.conrad.fr/p/namae-electronics-jtp-1130l-bouton-poussoir-a-pression-12-vdc-005-a-1-x-offon-a-rappel-1-pcs-705338 |
@@ -100,3 +100,5 @@ The design & development tools are the following
 | Jack audio male connector | | 1.60 € | https://www.conrad.fr/p/tru-components-93038c440-cable-de-connexion-jack-jack-male-35-mm-extremites-ouvertes-mono-1-pcs-1662323 |
 | Wire || 0.54 €| 457844 - Câble audio NF1106005</br>https://www.conrad.fr/p/bkl-electronic-1106005-cable-audio-1-x-010-mm-noir-marchandise-vendue-au-metre-457844|
 | 9V battery connector | | 0.55 € | https://www.conrad.fr/p/connecteur-clip-pression-1x-6lr61-9-v-beltrona-9v-t-clip-raccordement-par-empreinte-pile-9v-l-x-l-x-h-26-x-13-x-8-mm-490660 |
+| Small screw ||2.90 € / 200 pcs | https://www.visserie-boulonnerie-en-ligne.fr/visserie/vis-a-tole-tete-cylindrique-din-7981-pozidrive/vttc020200605i2-po-vis-a-tole-tete-cylindrique-empreinte-pozidrive-din-7981-m-2-2-x-6-5-inox-a2-.html |
+| Longer screw || 2.90 € / 200 pcs | https://www.visserie-boulonnerie-en-ligne.fr/visserie/vis-a-tole-tete-cylindrique-din-7981-pozidrive/vttc0209013i2-po-vis-a-tole-tete-cylindrique-empreinte-pozidrive-din-7981-m-2-9-x-13-inox-a2-.html |
