@@ -220,7 +220,15 @@ And finally, the 3D views :
 ![Rear side](DevelopmentSteps/Step6_PCBDesign/3DRearSide.PNG)
 
 
+## 7. Design the case, front side
 
+### Description
+Because designing the case may be a very complex activity, we will split in 3 steps :
+* The design of the front panel
+* The design of the case sides
+* The design of the rear panel
+
+Of course, the integration of these 3 parts has to be addressed
 
 
 
