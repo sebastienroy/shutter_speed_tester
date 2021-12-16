@@ -1,26 +1,28 @@
 # Development Stories
 
-## 0. Experimention : How to detect the opening a camera shutter
+## 0. Experimention : How to detect the opening of a camera shutter
 
 ### Description
 
-The aim of this story is to choose the right components and the right electronic schema in order to be able to detect the opening of a camera shutter, i.e how to detect a light source with a light sensor
+The aim of this story is to choose the right components and the right electronic schema in order to be able to detect the opening of a camera shutter, i.e how to detect a light source using a light sensor
 
 ### Acceptance criteria
 
-The choice of the components and schema allow to detect a light source with a light sensor
+The choice of the components and schema allow to detect a light source using a light sensor
 
 ### Realisation
 
 With the following schema, it would be possible to check different values of resistor, and measure
-* The voltage value induced by the phototransistor current, depending on the light illuminated it
+* The voltage value induced by the phototransistor current, depending on the light that illuminated it
 * Which light intensity, for different resistor value, allow to swich the digital port of the Arduino
 
-As a ligth source, we will use a standad led component, directly wired on the 5V output of the Arduino.  A 220 Ohm resistor is used to get an intensity less than 20 mA.  
-20 mA is the maximum current value recommended for both Arduino output (even not used in this experimentation) and for a standard LED.  
+As a ligth source, we will use a standard led component, directly wired on the 5V output of the Arduino.  A 220 Ohm resistor is used to get an intensity less than 20 mA.  
+20 mA is the maximum current value recommended both for Arduino output (even not used in this experimentation) and for a standard LED.  
 $$
 I = U/R = \frac{(5.0 - 1.2)}{220} \approxeq 17 mA
 $$  
+
+I = U/R = (5.0V - 1.2V) / (220 Ohm) ~= 17 mA  
 (The direct voltage of the Led is 1.2V)  
 
 And here is the schema :
@@ -43,7 +45,7 @@ The higher is the resistor value between the phototransistor, the more sensitive
 
 Questions :
 - What is the limit of increasing sensibility ?
-- Is there a side efect of increasing the resistor, as for instance a slower reactivity ?
+- Is there a side effect of increasing the resistor, as for instance a slower reactivity ?
 - Is it better to use a more powerfull LED or higher resistor value ?
 
 
@@ -77,7 +79,7 @@ The following circuit has been realized, based on the experimentation :
 
 ![Bread board](DevelopmentSteps/Step1_EdgesDetection/EdgesDetection_bb.png)
 
-Note that, in order to use the interupt capacity of the Arduino, only the D2 or D3 pins may be used for the phototransistor state change. The interrupt capacity is not available on the other pins.  
+Note that, in order to use the interrupt capacity of the Arduino, only the D2 or D3 pins may be used for the phototransistor state change. The interrupt capacity is not available on the other pins.  
 
 ### Code
 
@@ -161,6 +163,8 @@ And here is the code result :
 
 The sleeping mode is intended to prevent the battery to get empty too fast when forgetting to switch off the device.
 
+**TODO : implementation of a sleeping mode**
+
 ## 6. Create the Printed Circuit Board (PCB)
 
 ### Description  
@@ -172,8 +176,8 @@ However, for the design of the target PCB, we will use a more precise design too
 The first step is to create an empty project :  
 [Kicad project](design/Kicad_shutter_speed_tester/shutter_speed_tester.pro)  
 
-Then, the secon step is to create a schema.
-The goal of the schema is different from that drawn with Fritzing : the goal is not to describe the whole circuit, but to focus on the main board of the tool.  
+Then, the second step is to create a schema.
+The goal of the schema is different from that one drawn with Fritzing : the goal is not to describe the whole circuit, but to focus on the main board of the tool.  
 So some choices have to be made, mainly concerning the interfaces of this board :
 * Internal interfaces  
   * I2C LCD
@@ -190,9 +194,9 @@ So some choices have to be made, mainly concerning the interfaces of this board 
 
 | External interfaces | Interface implementation|
 | --- | --- |
-| Light source LED | One option is to have a socket, such as an audio jack socket, directly soldered on the PCB, that socket would be accessible through a hole made at the side of the case. Such an option makes difficult the general design of the PCB and is considered as too constraining.</br>The following solution is prefered : an internal PCB header is placed on the board. From this header is connected a wire, directly connected to the light source LED, or through a second connector placed at the side of the case. So the choice is :</br>2 pins PCB header |
-| Light Sensor| The options, and the prefered one, are exactly the same as those described for the light source LED :</br>2 pins PCB header |
-| Reset button| The choice is to place the reset button on the main board, and will be mechanically accessible to the operator using a button placed through the case |
+| Light source LED | One option is to have a socket, such as an audio jack socket, directly soldered on the PCB, that socket would be accessible through a hole made at the side of the case. Such an option makes difficult the general design of the PCB and is considered as too constraining.</br>The following solution is prefered : an internal PCB header is placed on the board. From this header is connected a wire, directly connected to the light source LED, or through a second connector placed at the side of the case. </br>another option is to have the light source LED wrapped at the side of the case, internally connected to the board using a wire.</br> So the choice is : 2 pins PCB header |
+| Light Sensor| In order to be easily adapted to different camera format and models, the light sensor has to be placed in a separated device, that can easily adapt to camera backs. So a wire has to be used, directly or through an intermediate connector placed at the side of the case. In all cases we need : </br>2 pins PCB header |
+| Reset button| The choice is to place the reset button on the main board, it will be mechanically accessible to the operator using a button placed through the case |
 | Control LED | As for the reset button, the control LED will be soldered on the main board, and accessible to the operator through the case |
 
 Conclusions : 
@@ -220,7 +224,7 @@ And finally, the 3D views :
 ![Rear side](DevelopmentSteps/Step6_PCBDesign/3DRearSide.PNG)
 
 
-## 7. Design the case, front side
+## 7. Design of the case, front side
 
 ### Description
 Because designing the case may be a very complex activity, we will split in 3 steps :
