@@ -234,6 +234,10 @@ Because designing the case may be a very complex activity, we will split in 3 st
 
 Of course, the integration of these 3 parts has to be addressed
 
+### Realisation
+We use an open source model for LCD1602 : https://grabcad.com/library/1602-lcd-display-1
+
+
 
 
 
