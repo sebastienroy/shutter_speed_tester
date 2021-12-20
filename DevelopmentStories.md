@@ -240,10 +240,10 @@ We use an open source model for LCD1602 : https://grabcad.com/library/1602-lcd-d
 The Front panel need to put in place the main board, the LCD board, and te power switch. the thickness will be set to 1.5mm.
 
 Here is the front view :  
-![Casing front panel, Front view](DevelopmentSteps/Step7_caseFront/FrontPanel_Front.PNG)  
+![Casing front panel, Front view](DevelopmentSteps/Step7_CaseFront/FrontPanel_Front.PNG)  
 
 And here is the back :  
-![Casing front panel, Rear view](DevelopmentSteps/Step7_caseFront/FrontPanel_Rear.PNG)
+![Casing front panel, Rear view](DevelopmentSteps/Step7_CaseFront/FrontPanel_Rear.PNG)
 
 
 
