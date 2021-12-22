@@ -9,8 +9,10 @@
 */
 
 #include <LiquidCrystal_I2C.h>
+#include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
 
-// #define DEBUG
+//#define DEBUG
+#define PERF_DEBUG
 
 const char *version = "1.0.0";
 
@@ -22,18 +24,18 @@ const byte CONTROL_LED_PIN = 5;
 const byte ON = 1;
 const byte OFF = 0;
 
+// These variables are manipulated by the interrupt callback used to read the value
 const byte NOTHING = 0;
 const byte OPENING = 1;
 const byte CLOSING = 2; 
-byte event_type = 0;
+volatile byte event_type = 0;
+volatile bool measure_is_open = false;
+volatile unsigned long  duration = 0;
 
 const byte READY_STATE = 0;
 const byte SHUTTER_OPEN_STATE = 1;
 const byte DISPLAY_STATE = 2;
 byte current_state = READY_STATE;
-
-unsigned long begin_time = 0;
-unsigned long end_time = 0;
 
 LiquidCrystal_I2C lcd(0x3f,16,2);  // set the LCD address to 0x3f for a 16 chars and 2 lines display
                                    // the I2C address value has to be determined using an I2C scanner
@@ -61,6 +63,7 @@ void setup() {
     Serial.println("Ready to start measure");
     delay(200);
     event_type = NOTHING; // Clear the events induced by the light switch
+    measure_is_open = true;
 }
 
 void loop() {
@@ -103,6 +106,7 @@ void loop() {
           Serial.println("Ready to start measure");
 
           current_state = READY_STATE;
+          measure_is_open = true;
         }  
         if (event_type == CLOSING) {
 #if defined DEBUG        
@@ -111,7 +115,7 @@ void loop() {
         }
     }
 
-    delay(100);
+    delay(10);
 }
 
 void lcdDisplayReady() {
@@ -137,7 +141,6 @@ void lcdDisplayMeasure(long microsDuration) {
 
 void enterDisplayState() {
     // Display result
-    unsigned long duration = end_time - begin_time;
     lcdDisplayMeasure(duration);
     
     float time_mili = duration / 1000.0;
@@ -152,18 +155,50 @@ void enterDisplayState() {
   
 }
 
+/*
+ * Callback to measure the time where the shutter is open
+ * The tricky thing is to prevent bouncing
+ */
 void shutter_cb() {
-  unsigned long current_time = micros();
-  event_type = ( digitalRead(SENSOR_PIN) == OFF )? CLOSING : OPENING;
-  if(event_type == OPENING) {
-    begin_time = current_time;
-#if defined DEBUG        
-    Serial.println("Open");
-#endif // defined DEBUG        
-  } else {
-    end_time = current_time;
-#if defined DEBUG        
-    Serial.println("Close");
-#endif // defined DEBUG        
-  }
+  static byte previous_state = OFF;
+  static  unsigned long begin_time = 0;
+  static unsigned long end_time = 0;
+ if( measure_is_open) {
+  #if defined PERF_DEBUG
+  unsigned long t1 = micros();
+  #endif
+    
+    ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
+      byte current_state = digitalRead(SENSOR_PIN);
+      if(current_state != previous_state) {
+        if((current_state == ON) && (begin_time == 0) ) { // alow start measure only once
+          begin_time = micros();        
+          event_type = OPENING;
+    #if defined DEBUG        
+        Serial.print("Open - ");
+        Serial.println(measure_is_open);
+    #endif // defined DEBUG        
+        } else if((current_state == OFF) && (begin_time !=0) ){ // current_state==OFF but prevent close before open
+          end_time = micros();  
+          duration = end_time - begin_time;
+          // reset measurement
+          begin_time = end_time = 0;       
+          event_type = CLOSING;
+    #if defined DEBUG        
+        Serial.print("Close - ");
+        Serial.println(measure_is_open);
+    #endif // defined DEBUG        
+          measure_is_open = false;
+        }
+        previous_state = current_state;
+        
+      }
+    } // ATOMIC_BLOC
+    #if defined PERF_DEBUG
+  unsigned long t2 = micros();
+  Serial.print("callback duration (micros) : ");
+  Serial.println(t2-t1);
+  #endif
+  } // measure_is_open
+
 }
