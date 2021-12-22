@@ -239,6 +239,25 @@ We use an open source model for LCD1602 : https://grabcad.com/library/1602-lcd-d
 
 The Front panel need to put in place the main board, the LCD board, and te power switch. the thickness will be set to 1.5mm.
 
+### Screw holes
+One of the tricky thing is to choose the good screw hole diameter. It must be bigger than the core part of the screw, and smaller than the exernal diameter of the screw.
+I have ordered iron plate screws, because they are most common than screxs for plastic.
+However, screws for platics could have been ordered here :
+https://www.visseriefixations.fr/eco-syn-pour-thermoplastiques-tcb-pozi-2-2x5-z-blanc.html  
+We will order more specific screws when we'll have used all the screws we have ordered, described in the part list.
+- Small screws : M2.2 x 6.5 mm
+  - Core diameter : 1.9 mm
+  - External diameter : 2.2 mm
+- bigger screws : M2.9 x 13 mm
+  - Core diameter : 2.2 mm
+  - External diameter : 2.8 mm
+
+Conclusion : we will use
+  - 2 mm diameter for small screw holes (screws for pcb)
+  - 2.5 mm diameter for bigger screw holes (screws for panels)
+
+### Result 
+
 Here is the front view :  
 ![Casing front panel, Front view](DevelopmentSteps/Step7_CaseFront/FrontPanel_Front.PNG)  
 
