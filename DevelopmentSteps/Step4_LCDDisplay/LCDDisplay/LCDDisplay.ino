@@ -37,6 +37,9 @@ const byte SHUTTER_OPEN_STATE = 1;
 const byte DISPLAY_STATE = 2;
 byte current_state = READY_STATE;
 
+// control LED lev (over 255)
+const int control_led_level = 255;
+
 LiquidCrystal_I2C lcd(0x3f,16,2);  // set the LCD address to 0x3f for a 16 chars and 2 lines display
                                    // the I2C address value has to be determined using an I2C scanner
 
@@ -71,7 +74,7 @@ void loop() {
       if(event_type == OPENING || digitalRead(SENSOR_PIN) == ON) {
         // Entering the Shutter Open State
         // digitalWrite(CONTROL_LED_PIN, ON); // light on the control led
-        analogWrite(CONTROL_LED_PIN, 16);
+        analogWrite(CONTROL_LED_PIN, control_led_level);
         event_type = NOTHING; // Ok, taken into account
         current_state = SHUTTER_OPEN_STATE;
 #if defined DEBUG        
