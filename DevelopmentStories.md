@@ -265,6 +265,17 @@ And here is the back :
 ![Casing front panel, Rear view](DevelopmentSteps/Step7_CaseFront/FrontPanel_Rear.PNG)
 
 
+## 8. Light source housing
+
+### Description
+
+The case must take into account the size of the different elements, but also the need to hold the light source.
+Decision is taken to hold the light source in the side of the case. This will make more simple the general handling of the tool. It than just has to be placed in front of the camera, and the light sensor in the back.
+The goal is now to make a design in order to hold the light source LED in the wall of the case.  
+The dimensional specifications of the light source LED are the following :  
+![LED specifications](DevelopmentSteps/Step8_LightSourceHousing/LED_Specifications.PNG)
+
+### Realisation
 
 
 
