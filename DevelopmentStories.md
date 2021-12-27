@@ -277,6 +277,18 @@ The dimensional specifications of the light source LED are the following :
 
 ### Realisation
 
+We will test that :
+
+![LED housing test](DevelopmentSteps/Step8_LightSourceHousing/LED_Housing.PNG)
+
+## 9. Removable door
+
+### Description
+
+The idea is to create a door that can be opened by hand but that cannot open by itself.  
+In one word, we wan to design a battery door.
+The prefered design would need no screen.  
+If it is too omplicated, a design with 1 screew may be accepted.
 
 
 
