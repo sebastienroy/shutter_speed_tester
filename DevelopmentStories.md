@@ -281,6 +281,8 @@ We will test that :
 
 ![LED housing test](DevelopmentSteps/Step8_LightSourceHousing/LED_Housing.PNG)
 
+A first test shows that the concept is not bad. However, it needs a lot of sanding in order to be able to insert the LED into the hole. So, the tolerences have to be increased to make easier the insertion of the LEd. Furthermore, chamfers have been added to the hold piece.
+
 ## 9. Removable door
 
 ### Description
