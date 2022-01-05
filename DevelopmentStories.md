@@ -283,14 +283,35 @@ We will test that :
 
 A first test shows that the concept is not bad. However, it needs a lot of sanding in order to be able to insert the LED into the hole. So, the tolerences have to be increased to make easier the insertion of the LEd. Furthermore, chamfers have been added to the hold piece.
 
-## 9. Removable door
+## 9. Battery door
 
 ### Description
 
 The idea is to create a door that can be opened by hand but that cannot open by itself.  
 In one word, we wan to design a battery door.
-The prefered design would need no screen.  
-If it is too omplicated, a design with 1 screew may be accepted.
+The prefered design would need no screw.  
+
+### Realisation
+
+We use an well known design, that use a door with a slot at one side, that allows to unlock it by bending the side.  
+
+Here is the inside view :
+![Battery door](DevelopmentSteps/Step9_BatteryDoor\BatteryDoor.PNG)
+
+There is chamfers in the opposite direction on the door panel and on the outside panel, so they fit perfectly together. 
+Howver, du to the 3D printing flaws, some tolerances have to be applied :  
+The door panel has to be smaller of :
+- the panel opening is 60x30 mm
+- the door is 62 x 32
+- The thickness of both panels is 1.5 mm
+- the chamfers of both panels is 1.3 mm
+
+The theretical overlap of each side is :  
+thickness - 2 (thickness - chamfer)  = 2 chamfer - thickness. 
+In our case it is : 2x1.3 - 1.5 = 1.1 mm
+So, a perfectly build construction would have fit with a door having 62.2 mm x 32.2 mm.  
+We use a little bit smaller dimensions to take into account the 3D printing flaws.
+
 
 
 
