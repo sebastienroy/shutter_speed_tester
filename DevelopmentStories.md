@@ -293,10 +293,10 @@ The prefered design would need no screw.
 
 ### Realisation
 
-We use an well known design, that use a door with a slot at one side, that allows to unlock it by bending the side.  
+We use a well known design, that use a door with a slot at one side, that allows to unlock it by bending the side.  
 
 Here is the inside view :
-![Battery door](DevelopmentSteps/Step9_BatteryDoor\BatteryDoor.PNG)
+![Battery door](DevelopmentSteps/Step9_BatteryDoor/BatteryDoor.PNG)
 
 There is chamfers in the opposite direction on the door panel and on the outside panel, so they fit perfectly together. 
 Howver, du to the 3D printing flaws, some tolerances have to be applied :  
@@ -311,6 +311,18 @@ thickness - 2 (thickness - chamfer)  = 2 chamfer - thickness.
 In our case it is : 2x1.3 - 1.5 = 1.1 mm
 So, a perfectly build construction would have fit with a door having 62.2 mm x 32.2 mm.  
 We use a little bit smaller dimensions to take into account the 3D printing flaws.
+
+## 10. Prevent the sensor wire to rip
+
+### Description
+The light sensor will be placed at the back of the camera in a separate casing, and linked to the main body using a wire. The wire will be connected to the main board using a dedicated connector.  
+The point to adress in this story is the way the wire passes through the casing. The problem to solve is to prevent to accidentaly rip the connecter by pulling on the wire. There is two ways to address this :  
+- Using another connector to pass through the case panel
+- blocking the wire, using for instance chicanes, inside the casing
+
+### Realisation
+
+**TODO**
 
 
 
