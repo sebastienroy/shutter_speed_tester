@@ -332,11 +332,14 @@ To this, may be added adaptors to 120 film format : 645, 6x6, 6x9
 
 Specifications of 35mm film can be read there :  
 [Kodak film specification](https://www.kodak.com/content/products-brochures/Film/How-to-read-a-Kodak-film-can-label.pdf)
+![KS perforation specification](DevelopmentSteps/Step11_LightSensorSupport/KodakPerforationsSpecificationCapture.PNG)
+
 
 The 35mm film is 35mm large, 
 Perforations pitch is 4.75mm.
 Each perforation is about 2.8mm x 2.0mm large (KS perforation), at about 2 mm from the side of the film.  
 Their corners are rounded, with 0.5mm radius.
+
 
 ## 12. Automatically update LCD IIC address
 
