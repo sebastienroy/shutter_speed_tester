@@ -324,6 +324,35 @@ The point to adress in this story is the way the wire passes through the casing.
 
 **TODO**
 
+## 11. LightSensorSupport
+
+### Description  
+The vision of the design of the LightSensor support is to have a core support, designed for the 35mm film format.  
+To this, may be added adaptors to 120 film format : 645, 6x6, 6x9
+
+Specifications of 35mm film can be read there :  
+[Kodak film specification](https://www.kodak.com/content/products-brochures/Film/How-to-read-a-Kodak-film-can-label.pdf)
+
+The 35mm film is 35mm large, 
+Perforations pitch is 4.75mm.
+Each perforation is about 2.8mm x 2.0mm large (KS perforation), at about 2 mm from the side of the film.  
+Their corners are rounded, with 0.5mm radius.
+
+## 12. Automatically update LCD IIC address
+
+### description
+
+The LCD display is connected through I2C interface. The interface has an address that can vary from one provider to another.
+So the idea is to automatically set the address, instead of having it hard coded.  
+
+This can be achieved using EEPROM memory.  
+The library documentation is here :  
+[Arduino EEPROM programming guide](https://docs.arduino.cc/learn/programming/eeprom-guide)
+
+### Realisation  
+
+**TODO**
+
 
 
 
