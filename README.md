@@ -25,6 +25,39 @@ This is the purpose of the shutter speed tester : measure the accuracy of shutte
 
 ![State diagram](design/images/states.svg)
 
+## The project, step by step
+
+Note that the following steps are not strictly waterfall. The result of a given step may introduce rework on previous steps
+
+### Preliminary : operational concept definition
+- Who is the target audience ?
+- What need will be statisfied by the project product ? (Conops)
+- How the product will satisfied by the need ? (Conuse)
+- What are the product expected advantages compared to existing products ?
+
+### Preliminary design
+- Main behavioural description
+- Definition of product architecture
+- Choice of components / providers
+- Choice of development/production tools
+
+### Development of Electronic circuit / microcontroler code
+- Definition of the target circuit with elements needed to implement the expected behaviour
+- Development of the code necessary to control the electronic circuit and to implement the expected behaviour
+
+### Development of the Printed Circuit Board (PCB)
+- Design of the target PCB
+- Production of PCB
+- Assembly of components : soldering, connectors assembly, tests
+
+### Design of the casing
+- Design of the facade : holes for display, button, LED, switch, position and size of screw plots
+- Design of the body : positionning of the light source, sensor wire
+- Design of the back : battery case and door
+- Design of the sensor case : take into account different films and camera formats
+
+### General architecture definition
+
 ## Project scope
 
 The project scope is to describe how to build a shutter speed tester tool.
