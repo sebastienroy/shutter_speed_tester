@@ -341,7 +341,7 @@ Each perforation is about 2.8mm x 2.0mm large (KS perforation), at about 2 mm fr
 Their corners are rounded, with 0.5mm radius.
 
 Here are the physical specifications of the phototransistor :
-![Phototransistor physical dimensions](DevelopmentSteps/Step11_LightSensorSupport/PhototransistorPhysicalDimensions.PNG)
+![Phototransistor physical dimensions](DevelopmentSteps/Step11_LightSensorSupport/phototransistorPhysicalDimensions.PNG)
 
 
 ## 12. Automatically update LCD IIC address
