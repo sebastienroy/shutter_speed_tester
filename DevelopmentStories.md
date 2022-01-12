@@ -340,6 +340,9 @@ Perforations pitch is 4.75mm.
 Each perforation is about 2.8mm x 2.0mm large (KS perforation), at about 2 mm from the side of the film.  
 Their corners are rounded, with 0.5mm radius.
 
+Here are the physical specifications of the phototransistor :
+![Phototransistor physical dimensions](DevelopmentSteps/Step11_LightSensorSupport/PhototransistorPhysicalDimensions.PNG)
+
 
 ## 12. Automatically update LCD IIC address
 
@@ -351,6 +354,7 @@ So the idea is to automatically set the address, instead of having it hard coded
 This can be achieved using EEPROM memory.  
 The library documentation is here :  
 [Arduino EEPROM programming guide](https://docs.arduino.cc/learn/programming/eeprom-guide)
+A hole must be provided in the middle of the support to hold this phototransistor.
 
 ### Realisation  
 
