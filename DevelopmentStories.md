@@ -312,6 +312,9 @@ In our case it is : 2x1.3 - 1.5 = 1.1 mm
 So, a perfectly build construction would have fit with a door having 62.2 mm x 32.2 mm.  
 We use a little bit smaller dimensions to take into account the 3D printing flaws.
 
+### Conclusion
+In order to fit perfectly, with a panel thickness of 1.5mm and a 1.3mm chamfer on both panel and door, the **door** must be **2mm longuer** and **2 mm larger** than the panel opening.
+
 ## 10. Prevent the sensor wire to rip
 
 ### Description
