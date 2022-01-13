@@ -111,8 +111,10 @@ The design & development tools are the following
 
 
 ## Developpement steps description
-
-[Development steps](DevelopmentStories.md)
+Operational Concepts  
+Preliminary design  
+[Circuits and code Development](Development/03_Development/DevelopmentStories.md)  
+[Casing](Development/04_Casing/CasingStories.md)
 
 ## Part List
 
