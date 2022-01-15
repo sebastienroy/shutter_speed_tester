@@ -1,17 +1,5 @@
 # Preliminary design
 
-## Design & development tools
-
-The design & development tools are the following
-| Tool name      | Version  | Purpose     | link                            |
-| -------------- | -- | ----------- | ------------------------------- |
-| Fritzing      | 0.9.3 | Electronic component & circuit design       | https://fritzing.org/ |
-| KiCad | 5.1.12 | Electronic component & circuit design| https://www.kicad.org/ |
-| FreeCad | 0.19.2 | 3D modeling | https://www.freecadweb.org/ |
-| Arduino IDE   | 1.8.16 |Arduino cross development IDE    | https://www.arduino.cc/en/software |
-| VSCode | 1.62.0 | General purpose code editor | https://code.visualstudio.com/ |
-| Drawio integration | 1.6.201 | Integration of Drawio tool into VSCode IDE |
-
 ## System and Architecture analysis
 
 The system is very small and is not interfaced with other systems, except
@@ -38,3 +26,15 @@ Thus we will not write a complete system analysis of this. We will jump directly
 |Light source| Led| The light source has to be chosen in accordance with the light sensor sensitivity (intensity and even maybe wavelength).</br>It has to be mounted preferably on a physical support that allows to adjust the position according the tested camera.</br>There is two options for the light source : </br>  1. Use an independent light source, maybe even don't include it in the package and let the user choose it by himself</br>  2. Use a light source powered by the tool</br>The option 2 is prefered because it allow to have a real control on the quality of the light source. Indeed much of commercial led lamps are quickly blinking (PWM source) when used in eco mode and cannot be used for our purpose.</br>The challenge is to have a light source that <br/>  - is bright enough to allow the light sensor to detect the opening of the shutter</br>  - does not use too much electrical power and does not drain the battery too fast|
 | Light Sensor | Phototransistor | A phototransistor is a good compromise between a low price, a good sensitivity and a low reaction time.</br> A specific support has to be designed, maybe according different film formats, in order allow a good position on the camera back, in order to easily detect the source light and not be influenced by environment light</br>Alternatives would have been :</br>- Photoresistor, too slow</br>- Photodiode, even faster than phototransistor but not enough sensitive |
 | **Casing** | **Specific design** | A specific casing has to be designed in order to host all the components. There is many differnet ways to design a case. </br>- One of them is to model it with a 3D design tool and then to print it using a 3D printer</br>- Another solution is to make it using wood, using the same dimensional specifications as those defined for the 3D printed one</br>- It is also possible to mix the solutions |
+
+## Design & development tools
+
+The design & development tools are the following
+| Tool name      | Version  | Purpose     | link                            |
+| -------------- | -- | ----------- | ------------------------------- |
+| Fritzing      | 0.9.3 | Electronic component & circuit design       | https://fritzing.org/ |
+| KiCad | 5.1.12 | Electronic component & circuit design| https://www.kicad.org/ |
+| FreeCad | 0.19.2 | 3D modeling | https://www.freecadweb.org/ |
+| Arduino IDE   | 1.8.16 |Arduino cross development IDE    | https://www.arduino.cc/en/software |
+| VSCode | 1.62.0 | General purpose code editor | https://code.visualstudio.com/ |
+| Drawio integration | 1.6.201 | Integration of Drawio tool into VSCode IDE |
