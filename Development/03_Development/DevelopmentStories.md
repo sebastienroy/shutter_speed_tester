@@ -269,8 +269,8 @@ So the idea is to automatically set the address, instead of having it hard coded
 This can be achieved using EEPROM memory.  
 The library documentation is here :  
 [Arduino EEPROM programming guide](https://docs.arduino.cc/learn/programming/eeprom-guide)
-A hole must be provided in the middle of the support to hold this phototransistor.
+
 
 ### Realisation  
 
-- [ ] **TODO**
+It's fine.
