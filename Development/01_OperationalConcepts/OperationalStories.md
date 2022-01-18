@@ -49,7 +49,7 @@ If you measure a 1/60 speed, while the selector is at 1/125,
 $S_m=60$,  
 $S_e=125$,  
 $\to\Delta_{stops}\sim-1$  
-So you must compensate the speed difference by closing the apperture of one stop compared to the theretical value.
+So you must compensate the speed difference by closing the apperture of one stop compared to the theoretical value.
 
 
 ## Expected advantages of this tool, compared to that already existing
