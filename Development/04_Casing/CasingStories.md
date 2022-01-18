@@ -19,9 +19,6 @@
     - [Realisation](#realisation-3)
   - [5. LightSensorSupport](#5-lightsensorsupport)
     - [Description](#description-4)
-  - [6. Automatically update LCD IIC address](#6-automatically-update-lcd-iic-address)
-    - [description](#description-5)
-    - [Realisation](#realisation-4)
 
 # Casing Stories
 
@@ -149,22 +146,7 @@ Their corners are rounded, with 0.5mm radius.
 Here are the physical specifications of the phototransistor :
 ![Phototransistor physical dimensions](05_LightSensorSupport/phototransistorPhysicalDimensions.PNG)
 
-
-## 6. Automatically update LCD IIC address
-
-### description
-
-The LCD display is connected through I2C interface. The interface has an address that can vary from one provider to another.
-So the idea is to automatically set the address, instead of having it hard coded.  
-
-This can be achieved using EEPROM memory.  
-The library documentation is here :  
-[Arduino EEPROM programming guide](https://docs.arduino.cc/learn/programming/eeprom-guide)
 A hole must be provided in the middle of the support to hold this phototransistor.
-
-### Realisation  
-
-**TODO**
 
 
 
