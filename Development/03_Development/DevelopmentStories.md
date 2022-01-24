@@ -33,6 +33,9 @@
   - [8. Automatically update LCD IIC address](#8-automatically-update-lcd-iic-address)
     - [Description](#description-7)
     - [Realisation](#realisation-3)
+  - [9. Setup mode](#9-setup-mode)
+    - [Description](#description-8)
+    - [Realisation](#realisation-4) 
 
 # Development Stories
 
@@ -197,7 +200,8 @@ And here is the code result :
 
 ### Description  
 
-The sleeping mode is intended to prevent the battery to get empty too fast when forgetting to switch off the device.
+The sleeping mode is intended to prevent the battery to get empty too fast when forgetting to switch off the device.  
+The idea is to switch off the main consumption sources (Light Source LED, LCD back light, Arduino, ...). However, when the device is in sleeping mode, it can be easily forgotten by the user. So, when in sleeping mode, the device should flash periodically to show that it is still on.
 
 - [ ] **TODO : implementation of a sleeping mode**
 
@@ -270,7 +274,18 @@ This can be achieved using EEPROM memory.
 The library documentation is here :  
 [Arduino EEPROM programming guide](https://docs.arduino.cc/learn/programming/eeprom-guide)
 
-
 ### Realisation  
 
 It's fine.
+
+## 9. Setup mode
+
+### Description
+In order to help the user to place correctly the sensor at the back of the camera and to place correctly the side of the tester in front of the camera, a setup mode can be usefull.  
+In such a mode, the device doesn't measure the opening time. The light source is kept lit, and the control LED is on when the sensor detects some light.  
+To enter in this mode, a long press on the reset button is needed.
+
+### Realisation
+
+- [ ] **TO DO : update of state diagram, code implementation**
+
