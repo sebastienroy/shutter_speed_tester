@@ -4,7 +4,7 @@
  * Created by Sebastien ROY
  * 2021-2022
  * 
- * Licenced under LGPL 2.1
+ * Licenced under GPL 3
  * 
 */
 
