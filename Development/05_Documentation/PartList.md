@@ -19,3 +19,4 @@
 | 9V battery connector | | 0.55 € | https://www.conrad.fr/p/connecteur-clip-pression-1x-6lr61-9-v-beltrona-9v-t-clip-raccordement-par-empreinte-pile-9v-l-x-l-x-h-26-x-13-x-8-mm-490660 |
 | Small screw ||2.90 € / 200 pcs | https://www.visserie-boulonnerie-en-ligne.fr/visserie/vis-a-tole-tete-cylindrique-din-7981-pozidrive/vttc020200605i2-po-vis-a-tole-tete-cylindrique-empreinte-pozidrive-din-7981-m-2-2-x-6-5-inox-a2-.html |
 | Longer screw || 2.90 € / 200 pcs | https://www.visserie-boulonnerie-en-ligne.fr/visserie/vis-a-tole-tete-cylindrique-din-7981-pozidrive/vttc0209013i2-po-vis-a-tole-tete-cylindrique-empreinte-pozidrive-din-7981-m-2-9-x-13-inox-a2-.html |
+| PLA filament for 3D printing | The 3D printing of the case needs about 130g of PLA filament  |  5.08 € (0.13kg x 39.08€/kg) | https://fr.rs-online.com/web/p/materiaux-pour-impression-3d/8320273</br>https://fr.rs-online.com/web/p/materiaux-pour-impression-3d/8320270|
