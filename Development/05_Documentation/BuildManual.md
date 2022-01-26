@@ -17,13 +17,15 @@ The details of any of the described build steps can be found in the developement
 
 - Solder components on the pcb :
   - On front side :
-    - resistors
-    - transistor
-    - arduino headers
-    - connectors
+    - 5x resistors
+    - 1x transistor
+    - 2x arduino female headers
+    - 1x 4 pins KF2510 male connector
+    - 3x 2 pins KF2510 male connectors
   - On back side
-    - switch button
-    - control LED.
+    - 1x switch button
+    - 1x control LED.
+- Solder male headers on the Arduino board
 - Solder I2C interface on the LCD display
 - Solder wires on
   - phototransistor
