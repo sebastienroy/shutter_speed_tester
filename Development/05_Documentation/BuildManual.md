@@ -16,15 +16,15 @@ The details of any of the described build steps can be found in the developement
 ## Construction description
 
 - Solder components on the pcb :
+  - On back side
+    - 1x switch button
+    - 1x control LED.
   - On front side :
     - 5x resistors
     - 1x transistor
     - 2x arduino female headers
     - 1x 4 pins KF2510 male connector
     - 3x 2 pins KF2510 male connectors
-  - On back side
-    - 1x switch button
-    - 1x control LED.
 - Solder male headers on the Arduino board
 - Solder I2C interface on the LCD display
 - Solder wires on
@@ -35,18 +35,33 @@ The details of any of the described build steps can be found in the developement
   - Battery adapter, KF2510, the Vcc wire passing by the power switch
   - Phototransistor, KF2510
   - Light source LED, KF2510
+- System assembly and test
+  - Plug the Arduino board 
+  - Connect the LCD display
+  - Connect the light source LED
+  - Connect the phototransistor
+  - Connect the battery adapter and the switch  
+  - Connect the Arduino on the computer, and upload the code
+  - Adjust the display contrast
+  - Test the behaviour : states, measured value
+  - Unplug from computer, connect to a battery
+  - Switch on, test the behaviour
 - 3D print all the case pieces
-- Screw PCB and LCD on the front panel, connect them together
-  - Don't forget the reset button 
-  - If development step 8 has NOT been developped, identify the I2C address of the LCD display using the I2C scanner, and adapt if needed the shutter speed tester code
-  - Upload the shutter speed tester code on the Arduino
-  - Connect the LED and the phototransistor, and check that all is functional
-- Assembly of the casing
-  - Insert the LED in the case body, and block it using the piece printed for that usage
-  - Insert the phototransitor on its case and screw the cover
-  - Insert the Power switch in the front panel, and connect it to the PCB and the battery adapter
-  - Screw the front panel on the body
-  - block the sensor wire on the body
+  - Remove all the adhesion layer
+  - Check that all the pieces fit together, pay special attention on reset button and light souce LED blocking part.
+- Sensor assembly
+  - Insert the phototransitor in its dedicated hole and screw the cover
+- Front panel assembly
+  - Insert the reset button  
+  - Screw PCB and LCD on the front panel, connect them together
+  - Insert power switch in the front panel, and connect it to the PCB and the battery adapter
+- Case body assembly
+  - Insert the light source LED in the case body, and block it using the piece printed for that usage
+  - Connect all the wires
+  - Screw the front panel on the case body
+  - Block the sensor wire on the body
+- Assembly of the rear panel
   - Screw the battery cage back on the rear panel
   - Screw the rear panel on the body
+- Final test with a battery
 
