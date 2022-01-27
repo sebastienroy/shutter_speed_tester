@@ -32,7 +32,10 @@ The details of any of the described build steps can be found in the developement
   - Light source LED
 - Crimp connectors on wires
   - LCD 4 wires : dupont connector at LCD side and KF2510 at PCB side
-  - Battery adapter, KF2510, the Vcc wire passing by the power switch
+  - Battery adapter, Gnd on a 2 pins female KF2510, Vcc on a 1 pin Dupont female connector 
+  - Switch connectors : 
+    - on the above 2 pins KF2510 
+    - on a male 1 pin Dupont connector 
   - Phototransistor, KF2510
   - Light source LED, KF2510
 - System assembly and test
