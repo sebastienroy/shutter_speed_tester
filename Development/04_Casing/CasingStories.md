@@ -19,6 +19,10 @@
     - [Realisation](#realisation-3)
   - [5. LightSensorSupport](#5-lightsensorsupport)
     - [Description](#description-4)
+    - [Result](#result-1)
+  - [6. Medium format Adapter](#6-medium-format-adapter)
+    - [Description](#description-5)
+    - [Result](#result-2)
 
 # Casing Stories
 
@@ -147,6 +151,31 @@ Here are the physical specifications of the phototransistor :
 ![Phototransistor physical dimensions](05_LightSensorSupport/phototransistorPhysicalDimensions.PNG)
 
 A hole must be provided in the middle of the support to hold this phototransistor.
+
+### Result
+Here is the result :  
+![Light Sensor Support](05_LightSensorSupport/LightSensorSupportBody.jpg)  
+Holes have been provisioned at the sides of the support to allow to fit an adapter for medium format film cameras.
+
+And, with the lessons learned from step 4, we also add a cover that prevent the wire to move.
+
+![Light Sensor Cover](05_LightSensorSupport/LightSensorSupportCover.jpg)
+
+
+
+## 6. Medium format Adapter
+
+### Description
+We need an adapter in order to be able to use the sensor also with medium format cameras.  
+Medium format films are rolls of aproximatively 6 cm large. This format is named "120 format".  
+The cameras that use 120 film may have different exposed sizes : 6x4.5, 6x6, 6x7, 6x9, ...
+We will design a 6x6 adapter. Other format will be easily adapted from that.
+
+### Result
+And here is the result :
+![Medium Fomat Adapter](05_LightSensorSupport/MediumFormatAdapter.jpg)  
+This is a very simple but efficient design.  
+The adapter can be easily fit on or off by bending it.
 
 
 
