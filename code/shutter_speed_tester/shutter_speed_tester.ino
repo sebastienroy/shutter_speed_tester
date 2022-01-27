@@ -4,7 +4,7 @@
  * Created by Sebastien ROY
  * 2021-2022
  * 
- * Licenced under GPL 3
+ * @license GPL-3.0+ <http://spdx.org/licenses/GPL-3.0+>
  * 
 */
 
@@ -14,7 +14,7 @@
 #include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
 
 //#define DEBUG
-#define PERF_DEBUG
+//#define PERF_DEBUG
 
 const char *version = "1.0.0";
 
@@ -42,12 +42,12 @@ byte current_state = READY_STATE;
 // control LED lev (over 255)
 const int control_led_level = 255;
 
-// EEPROM memory that contain i2c address
+// EEPROM memory address that contains i2c address value
 const int EEPROM_I2C = 0;
 
+// Because the liquid_crystal_i2c library can only be inscated with the address value, 
+//   and this value cannot be changed afterward, we will instanciate it later
 LiquidCrystal_I2C *lcd = NULL;
-//LiquidCrystal_I2C lcd(0x3f,16,2);  // set the LCD address to 0x3f for a 16 chars and 2 lines display
-                                   // the I2C address value has to be determined using an I2C scanner
 
 void setup() {
     Serial.begin(9600);
@@ -59,10 +59,7 @@ void setup() {
         lcd->backlight();
         lcd->noCursor();
         lcdDisplayReady();     
-    } else {
-        return;   // stop initialization if no lcd
-    }
-    
+    }   
     
     pinMode(SENSOR_PIN, INPUT);
     pinMode(ILLUMINATION_LED_PIN, OUTPUT);
@@ -72,7 +69,6 @@ void setup() {
     Serial.println("Shutter speed tester");
     Serial.print("Version ");
     Serial.println(version);
-
     
     // Light ON
     digitalWrite(ILLUMINATION_LED_PIN, ON);
@@ -121,11 +117,7 @@ void setup_i2c_address() {
     }
 }
 
-void loop() {
-    if(lcd == NULL) {
-      return;         // stop if no LCD
-    }
-  
+void loop() {  
     if(current_state == READY_STATE) {
       if(event_type == OPENING || digitalRead(SENSOR_PIN) == ON) {
         // Entering the Shutter Open State
@@ -173,29 +165,32 @@ void loop() {
 #endif // defined DEBUG        
         }
     }
-
     delay(10);
 }
 
 void lcdDisplayReady() {
-  lcd->clear();
-  lcd->setCursor(0,0);
-  lcd->print("Ready to");
-  lcd->setCursor(2,1);
-  lcd->print("start measure");
+  if(lcd != NULL) {
+    lcd->clear();
+    lcd->setCursor(0,0);
+    lcd->print("Ready to");
+    lcd->setCursor(2,1);
+    lcd->print("start measure");
+  }
 }
 
 void lcdDisplayMeasure(long microsDuration) {
   float time_mili = microsDuration / 1000.0;
   float speed_val = 1000.0 / time_mili;
-  lcd->clear();
-  lcd->setCursor(0,0);
-  lcd->print("time=");
-  lcd->print(String(time_mili));
-  lcd->print("ms");
-  lcd->setCursor(0,1);
-  lcd->print("speed=1/");
-  lcd->print(String(speed_val));
+  if(lcd != NULL) {
+    lcd->clear();
+    lcd->setCursor(0,0);
+    lcd->print("time=");
+    lcd->print(String(time_mili));
+    lcd->print("ms");
+    lcd->setCursor(0,1);
+    lcd->print("speed=1/");
+    lcd->print(String(speed_val));
+  }
 }
 
 void enterDisplayState() {
@@ -211,7 +206,6 @@ void enterDisplayState() {
     Serial.println();
     // Switch off the illumination led
     digitalWrite(ILLUMINATION_LED_PIN, OFF);
-  
 }
 
 /*
@@ -249,15 +243,13 @@ void shutter_cb() {
     #endif // defined DEBUG        
           measure_is_open = false;
         }
-        previous_state = current_state;
-        
+        previous_state = current_state;     
       }
     } // ATOMIC_BLOC
-    #if defined PERF_DEBUG
+  #if defined PERF_DEBUG
   unsigned long t2 = micros();
   Serial.print("callback duration (micros) : ");
   Serial.println(t2-t1);
   #endif
   } // measure_is_open
-
 }
