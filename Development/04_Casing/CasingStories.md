@@ -167,7 +167,7 @@ And, with the lessons learned from step 4, we also add a cover that prevent the 
 
 ### Description
 We need an adapter in order to be able to use the sensor also with medium format cameras.  
-Medium format films are rolls of aproximatively 6 cm large. This format is named "120 format".  
+Medium format films are rolls of approximatively 6 cm large. This format is named "120 format".  
 The cameras that use 120 film may have different exposed sizes : 6x4.5, 6x6, 6x7, 6x9, ...
 We will design a 6x6 adapter. Other format will be easily adapted from that.
 
