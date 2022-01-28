@@ -73,7 +73,9 @@ void setup() {
     // Light ON
     digitalWrite(ILLUMINATION_LED_PIN, ON);
     digitalWrite(CONTROL_LED_PIN, OFF);
+    #if defined DEBUG
     Serial.println("Ready to start measure");
+    #endif
     delay(200);
     event_type = NOTHING; // Clear the events induced by the light switch
     measure_is_open = true;
@@ -82,33 +84,45 @@ void setup() {
 void setup_i2c_address() {
     byte address = 0;
     EEPROM.get(EEPROM_I2C, address);
+    #if defined DEBUG
     Serial.print("Initial I2C address is : ");
     Serial.println(address, HEX);
+    #endif
 
     byte error;
     Wire.begin();
     Wire.beginTransmission(address);
     error = Wire.endTransmission();
     if(error == 0) {
+      #if defined DEBUG
       Serial.println("Device found at this address, cool!");
+      #endif
     } else {    // find the address of the lcd
+        #if defined DEBUG
         Serial.println("No device found at this address, sorry!");
         Serial.println("Searching another address...");
+        #endif
         bool found = false; 
         for(address = 1; (address < 127) && !found ; address++ ) {
             Wire.beginTransmission(address);
             error = Wire.endTransmission();
             if (error == 0) { // lcd found !
                 found = true;
+                #if defined DEBUG
                 Serial.print("I2C device found at address 0x");
                 Serial.println(address, HEX);
+                #endif
                 // save it
                 EEPROM[EEPROM_I2C] = address;
+                #if defined DEBUG
                 Serial.println("Saved in EEPROM");
+                #endif
             }
        }  
        if(!found) {
+            #if defined DEBUG
             Serial.println("Sorry, no I2C device found.");      
+            #endif
        }
     }
     if(error == 0) { // the i2c device has been found, address variable is ok
