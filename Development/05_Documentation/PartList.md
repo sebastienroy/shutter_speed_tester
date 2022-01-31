@@ -13,8 +13,6 @@
 | I2C Interface for LCD || 4.50 € | https://www.conrad.fr/p/iduino-me033-1-pcs-2315239 |
 | Phototransistor | | 0.46 €| Vishay, Visible light, TEPT4400</br>https://fr.rs-online.com/web/p/phototransistors/7000776 |
 | Transistor 2N2222| NPN Transistor | 0.10 € | 1265001 - Transistor bipolaire PN2222ATA</br>https://www.conrad.fr/p/on-semiconductor-transistor-bjt-discret-pn2222ata-to-92-3-1-npn-1265001|
-| Jack audio mono 3.5mm female socket | | 0.88 € | https://www.conrad.fr/p/jack-35-mm-embase-femelle-verticale-tru-components-718672-nombre-de-poles-num-2-mono-noir-1-pcs-1567107 |
-| Jack audio male connector | | 1.60 € | https://www.conrad.fr/p/tru-components-93038c440-cable-de-connexion-jack-jack-male-35-mm-extremites-ouvertes-mono-1-pcs-1662323 |
 | Wire || 0.54 €| 457844 - Câble audio NF1106005</br>https://www.conrad.fr/p/bkl-electronic-1106005-cable-audio-1-x-010-mm-noir-marchandise-vendue-au-metre-457844|
 | 9V battery connector | | 0.55 € | https://www.conrad.fr/p/connecteur-clip-pression-1x-6lr61-9-v-beltrona-9v-t-clip-raccordement-par-empreinte-pile-9v-l-x-l-x-h-26-x-13-x-8-mm-490660 |
 | Small screw ||2.90 € / 200 pcs | https://www.visserie-boulonnerie-en-ligne.fr/visserie/vis-a-tole-tete-cylindrique-din-7981-pozidrive/vttc020200605i2-po-vis-a-tole-tete-cylindrique-empreinte-pozidrive-din-7981-m-2-2-x-6-5-inox-a2-.html |
