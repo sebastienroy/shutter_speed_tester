@@ -8,7 +8,9 @@ When people passionated with old film cameras want to use their camera to shoot 
 This is usually due to the speed of the camera shutter that is not any more accurate. In order to check the shutter speed accuracy, the camera owner has to compare the actual opening time of the shutter with the expected one.  
 This is the purpose of the shutter speed tester : measure the accuracy of shutter speed. 
 
-![Shutter Speed Tester result](images/sst.jpg)
+Here is a presentation video (in French) :  
+
+[![Presentation video in french](images/sst.jpg)](https://youtu.be/lsWC2Jt2cCw)
 
 ## Principle
 
