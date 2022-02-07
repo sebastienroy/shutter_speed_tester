@@ -4,7 +4,7 @@
  * Created by Sebastien ROY
  * 2021-2022
  * 
- * Licenced under LGPL 2.1
+ * @license GPL-3.0+ <http://spdx.org/licenses/GPL-3.0+>
  * 
 */
 
