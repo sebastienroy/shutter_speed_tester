@@ -8,7 +8,7 @@
  * 
 */
 
-#include <LiquidCrystal_I2C.h>
+#include <LiquidCrystal_I2C.h> // LiquidCrystal I2C by Frank de Brabander
 #include <EEPROM.h>
 #include <Wire.h>
 #include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
