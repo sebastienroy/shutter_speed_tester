@@ -6,8 +6,9 @@
 | Green LED | | 0.17 € | 180180 - LED 5 MM SUPER LUMIN TYPE L-7113CGDK</br>https://www.conrad.fr/p/kingbright-l-7113cgdk-led-vert-rond-5-mm-140-mcd-30-20-ma-21-v-180180|
 | Push button | | 0.23 €| 705338 - INTERRUPTEUR LOW COST JTP-1230L</br>https://www.conrad.fr/p/te-connectivity-1825910-2-bouton-poussoir-a-pression-24-vdc-005-a-1-x-offon-a-rappel-1-pcs-701749 |
 | Toggle switch | Used as power switch | 1.53 € | 1587528 - Inter à bascule TC-R13-70A-01</br>https://www.conrad.fr/p/interrupteur-a-bascule-tru-components-tc-r13-70a-01-1587528-24-vdc-10-a-1-x-offon-a-accrochage-1-pcs-1587528 | 
-| JST XH connector or </br> molex 6410 / KF2510 connector |  molex 6410 are finally used  |   |   |
+| JST XH connector or </br> molex 6410 / KF2510 connector |  molex 6410 are finally used  |   | Standard component  |
 | Arduino nano | | 13 € | https://www.conrad.fr/p/tru-components-carte-de-developpement-atmega328-nano-development-board-2134126 |
+| 15 pins 2.54mm female pcb header| These headers are used to plug the Arduino Nano on the pcb|| Standard component|
 | Resistors :</br>220 Ohm</br>1k Ohm (x2)</br>10k Ohm</br>1M Ohm | Carbon film, 1/4 W THT | 0.08 € x5 | https://www.conrad.fr/p/resistance-a-couche-carbone-yageo-cfr25j220rh-220-sortie-axiale-0207-025-w-1-pcs-1417693</br>https://www.conrad.fr/p/resistance-a-couche-carbone-yageo-cfr25j1k0h-1-k%CF%89-sortie-axiale-0207-0.25-w-1-pc-s-1417699</br>https://www.conrad.fr/p/resistance-a-couche-carbone-yageo-cfr25j10kh-10-k%CF%89-sortie-axiale-0207-0.25-w-1-pc-s-1417697</br>https://www.conrad.fr/p/resistance-a-couche-carbone-yageo-cfr25j1m0h-1-m%CF%89-sortie-axiale-0207-0.25-w-1-pc-s-1417664 |
 | LCD 1602 | | 9.49 € | https://www.conrad.fr/p/display-elektronik-ecran-lcd-16-x-2-pixel-l-x-h-x-p-80-x-36-x-66-mm-2238810|
 | I2C Interface for LCD || 4.50 € | https://www.conrad.fr/p/iduino-me033-1-pcs-2315239 |
