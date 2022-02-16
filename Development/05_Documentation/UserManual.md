@@ -24,7 +24,7 @@ On distingue principalement deux types d’obturateur :
 -	Les obturateurs centraux
 -	Les obturateurs plan focal (à rideaux)  
 
-Le Shutter Speed Tester donne une indication de vitesse d’obturateur sur un mode tout ou rien, mesuré à l’emplacement du capteur. Ce fonctionnement très simple est suffisant pour couvrir la majorité du besoin de mesure, pour lequel l’exposition est le produit de la vitesse et de l’ouverture
+Le Shutter Speed Tester donne une indication de vitesse d’obturateur sur un mode tout ou rien, mesuré à l’emplacement du capteur. Ce fonctionnement très simple est suffisant pour couvrir la majorité du besoin de mesure, pour lequel l’exposition est le produit de la vitesse et de l’ouverture.  
 Il existe toutefois certains cas où cette simple valeur n’est pas suffisante pour déterminer l’exposition.
 ### Obturateur plan focal
 L’obturateur plan focal met en œuvre deux rideaux qui se déplacent successivement, dans le même sens. L’ouverture de l’un est suivie par la fermeture de l’autre.
