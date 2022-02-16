@@ -31,7 +31,7 @@ L’obturateur plan focal met en œuvre deux rideaux qui se déplacent successiv
 Si les deux rideaux se déplacent à la même vitesse sur toute la surface, l’exposition est uniforme et est donnée par la mesure du Shutter Speed Tester.  
 Si les deux rideaux se déplacent à des vitesses différentes, cela donne des différences d’exposition selon les parties de la photo. Pour détecter cela, positionnez le capteur à différentes positions à l’arrière de l’appareil photo pour faire vos mesures et vérifiez que les valeurs de mesures sont identiques quel que soit l’emplacement du capteur.
 ### Obturateur central
-L'obturateur central a pour caractéristique de fonctionner trois phases : l'ouverture, la pleine ouverture, et la fermeture.  
+L'obturateur central a pour caractéristique de fonctionner en trois phases : l'ouverture, la pleine ouverture, et la fermeture.  
 Lorsque la pleine ouverture dure longtemps par rapport aux phases d'ouverture et de fermeture, tout va bien.  
 Lorsque ce n'est plus le cas (pour les très hautes vitesses, en pratique uniquement pour la vitesse la plus rapide de l'obturateur), vous pouvez avoir un écart entre la durée d'ouverture mesurée et l'exposition de la pellicule, puisqu'il est impossible de dire à partir de quel seuil le "chronomètre" va être mis en marche. Ce dernier fonctionne en mode "tout ou rien".  
 Il existe toutefois une façon d'estimer le phénomène : Si vous placez le capteur au plus proche de l'obturateur (coté objectif, donc), vous pouvez faire des mesures au centre et des mesures en périphérie. La différence de valeur mesurée vous donnera la vitesse d'ouverture et de fermeture de l'obturateur
