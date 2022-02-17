@@ -60,4 +60,4 @@ The researches on the web of such kind of tool give different results :
 - Tools that have both properties
 - Tools built by makers, but not integrated at all, not usable by common camera hobist
 
-So, there is a room for a tool that would be all integrated, easy to use, at a reasonable price tag, let say around 35€.
+So, there is a room for a tool that would be all integrated, easy to use, at a reasonable price tag, let say less than 50€.
