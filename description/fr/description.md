@@ -52,14 +52,14 @@ Voici les grandes lignes du développement du projet. Les détails de chacune de
 - Développement du code de control des circuits électroniques et implémentant le comportement attendu
 - Développement du circuit imprimé
 - Production du circuit imprimé
-- Assemblage des composants : soudage, sertissage des connecteurs, tests
+- Assemblage des composants : soudure, sertissage des connecteurs, tests
 
 ## Design du boitier
 
 - Design de la façade : ouvertures pour l'affichage, le bouton, la LED de control, l'interrupteur. Positionnement des plots de support à vis.
 - Design du corps du boitier : positionnement de la source de lumière, du fil du capteur
 - Design du dos : emplacement de la pile et de sa trappe d'accès
-- Design du support de capteur : prise en compte des différents formats de film ephotographique.
+- Design du support de capteur : prise en compte des différents formats de film photographique.
 
 ### Documentation
 - Manuel utilisateur
