@@ -13,11 +13,33 @@ http://github.com/sebastienroy/shutter_speed_tester
 Le code de Shutter Speed Tester est distribué sous licence GPL3. Cette licence vous permet de copier, modifier, distribuer son code, à condition que ces copies soient distribuées sous la même licence.  
 Pour plus de détails :  
 https://www.gnu.org/licenses/gpl-3.0.fr.html
+
+## Mise en service
+Le Shutter Speed Tester est constitué d'une boitier principal et d'un capteur relié par un fil.  
+- Le boitier principal comporte 
+  - un interrupteur on/off
+  - un bouton poussoir
+  - une LED de contrôle
+  - un écran d'affichage
+  - une LED d'éclairage (sur le côté)
+  - un port MINI USB (sur le desssus)
+  - une trappe à pile 9V (à l'arrière)
+- Le capteur est constitué
+  - du capteur de lumière, sur un support 35mm
+  - d'un adaptateur amovible moyen format 6x6  
+
+L'appareil  peut être alimenté électriquement soit par un cable MINI USB, soit par une pile 9V.  
+Cette dernière se met en place à l'arrière de l'appareil, en ouvrant la trappe en plastique et en connectant la pile 9V sur le connecteur prévu à cet effet.
+Enlevez la pile
+- lorsque vous n'utilisez pas l'appareil pendant une durée prolongée
+- lorsque vous connectez l'appareil sur le port USB
+
+
 ## Mode opératoire
--	placez le capteur à l'arrière de l'appareil photo, à la place de la pellicule.
+-	placez le capteur à l'arrière de l'appareil photo, à la place de la pellicule. Selon le format de votre appareil photo, utilisez ou enlevez l'adaptateur moyen format.
 -	placez le boitier en face de l'appareil photo à la bonne hauteur pour être en face du capteur
 -	allumez l'appareil. La LED d'éclairage de l'appareil s'allume
--	déclenchez. L'appareil indique la vitesse mesurée.
+-	déclenchez. La LED de control (verte) s'allume durant le temps où l'obturateur est ouvert. L'appareil indique ensuite la vitesse mesurée.
 -	pour recommencer la mesure, appuyez sur le bouton sur la façade de l'appareil.
 ## Spécificité de mesure selon le type d’obturateur.
 On distingue principalement deux types d’obturateur : 
