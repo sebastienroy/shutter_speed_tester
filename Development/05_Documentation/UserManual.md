@@ -29,8 +29,9 @@ Le Shutter Speed Tester est constitué d'une boitier principal et d'un capteur r
   - d'un adaptateur amovible moyen format 6x6  
 
 L'appareil  peut être alimenté électriquement soit par un cable MINI USB, soit par une pile 9V.  
-Cette dernière se met en place à l'arrière de l'appareil, en ouvrant la trappe en plastique et en connectant la pile 9V sur le connecteur prévu à cet effet.
-Enlevez la pile
+Cette dernière se met en place à l'arrière de l'appareil, en ouvrant la trappe en plastique et en connectant la pile 9V sur le connecteur prévu à cet effet.  
+
+Il est nécessaire d'enlever la pile
 - lorsque vous n'utilisez pas l'appareil pendant une durée prolongée
 - lorsque vous connectez l'appareil sur le port USB
 
