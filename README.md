@@ -14,7 +14,7 @@ Here is a presentation video (in French) :
 
 The result of this open source project is to allow anyone who has the minimum skills in DIY domain to build his own device
 
-[Here is the description of the project.](project_description.md)
+[Here is the description of the open source project.](project_description.md)
 
 # Baby Shutter Tester
 Many people, interested to get such a device but who don't feel skilled enough to build their own copy, asked the author of the project to build it for them.  
@@ -23,4 +23,7 @@ The Baby Shutter Tester principles are the same as the open source version ones.
 
 ![Baby Shutter Tester image](baby_shutter_tester/images/BabyShutterTester.jpg)
 
-More details to come soon...
+To come soon :  
+Presentation video  
+ebay link  
+User manual
