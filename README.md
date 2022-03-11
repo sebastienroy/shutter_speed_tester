@@ -21,4 +21,6 @@ Many people, interested to get such a device but who don't feel skilled enough t
 This resulted to the commercial version of the tool, the Baby Shutter Tester.  
 The Baby Shutter Tester principles are the same as the open source version ones. However, its design has been reworked in order to be smaller and easier to produce.  
 
+![Baby Shutter Tester image](baby_shutter_tester/images/BabyShutterTester.jpg)
+
 More details to come soon...
