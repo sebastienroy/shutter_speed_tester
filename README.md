@@ -19,7 +19,7 @@ The result of this open source project is to allow anyone who has the minimum sk
 # Baby Shutter Tester
 Many people, interested to get such a device but who don't feel skilled enough to build their own copy, asked the author of the project to build it for them.  
 This resulted to the commercial version of the tool, the Baby Shutter Tester.  
-The Baby Shutter Tester principles are the same as the open source version ones. However, its design has been reworked in order to be smaller and easier to produce.  
+The Baby Shutter Tester principles are the same as the open source version ones. However, its design has been reworked in order to be smaller and easier to produce in small series.  
 
 ![Baby Shutter Tester image](baby_shutter_tester/images/BabyShutterTester.jpg)
 
