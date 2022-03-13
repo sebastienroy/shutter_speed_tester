@@ -23,7 +23,13 @@ The Baby Shutter Tester principles are the same as the open source version ones.
 
 ![Baby Shutter Tester image](baby_shutter_tester/images/BabyShutterTester.jpg)
 
-To come soon :  
-Presentation video  
-ebay link  
-User manual
+## Video presentation
+[![Presentation YouTube](baby_shutter_tester/images/YoutTubeVideo.jpg)](https://youtu.be/0uQaNf9IJO4)
+
+## Where to buy 
+[eBay link](https://www.ebay.fr/itm/203867289553?ViewItem=&item=203867289553)
+
+## User manual
+
+[User Manual](baby_shutter_tester/BabyShutterTesterUserManual.md)
+
