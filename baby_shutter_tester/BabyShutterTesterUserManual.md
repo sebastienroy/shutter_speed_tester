@@ -78,5 +78,6 @@ Il existe toutefois une façon d'estimer le phénomène : Si vous placez le capt
 
 Pour toute information supplémentaire ou toute question que vous pourriez avoir sur le Baby Shutter Tester, vous pouvez vous référer à l'adresse web suivante :  
 
-http://github.com/sebastienroy/shutter_speed_tester
+http://github.com/sebastienroy/shutter_speed_tester  
+[photographyelectronics@gmail.com](mailto:photographyelectronics@gmail.com)
 
