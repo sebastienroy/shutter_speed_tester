@@ -16,7 +16,15 @@
 //#define DEBUG
 //#define PERF_DEBUG
 
-const char *version = "1.0.0";
+#define USE_1M_RESISTOR
+// delay due to the hardware (microseconds)
+#define HW_DELAY 240
+// minimum light pulse considered as reliable (microseconds)
+#define MIN_PULSE 100
+
+// 1.0.0 : initial version
+// 1.1.0 : patch for hardware delay compensation
+const char *version = "1.1.0";
 
 const byte SENSOR_PIN = 2;
 const byte ILLUMINATION_LED_PIN = 3;
@@ -66,9 +74,11 @@ void setup() {
     pinMode(RESET_BUTTON_PIN, INPUT);
     pinMode(CONTROL_LED_PIN, OUTPUT);
     attachInterrupt(digitalPinToInterrupt(SENSOR_PIN), shutter_cb,  CHANGE);
+
     Serial.println("Shutter speed tester");
     Serial.print("Version ");
     Serial.println(version);
+    
     
     // Light ON
     digitalWrite(ILLUMINATION_LED_PIN, ON);
@@ -195,22 +205,33 @@ void lcdDisplayReady() {
 void lcdDisplayMeasure(long microsDuration) {
   float time_mili = microsDuration / 1000.0;
   float speed_val = 1000.0 / time_mili;
+
+  String strTime = String(time_mili);
+  String strSpeed = String(speed_val);
+
+  // Asumption that the precision is not goot enough to mesure time less than MIN_PULSE 
+  if(microsDuration < MIN_PULSE) {
+    strTime = " - ";
+    strSpeed = " - ";
+  }
   if(lcd != NULL) {
     lcd->clear();
     lcd->setCursor(0,0);
     lcd->print("time=");
-    lcd->print(String(time_mili));
+    lcd->print(strTime);
     lcd->print("ms");
     lcd->setCursor(0,1);
     lcd->print("speed=1/");
-    lcd->print(String(speed_val));
+    lcd->print(strSpeed 
+    );
   }
 }
 
 void enterDisplayState() {
     // Display result
     lcdDisplayMeasure(duration);
-    
+
+#if defined DEBUG    
     float time_mili = duration / 1000.0;
     float speed_val = 1000.0 / time_mili;
     Serial.print("Opening duration (ms) : ");
@@ -218,6 +239,8 @@ void enterDisplayState() {
     Serial.print(" Speed : 1/");
     Serial.print(speed_val);
     Serial.println();
+#endif // defined DEBUG
+
     // Switch off the illumination led
     digitalWrite(ILLUMINATION_LED_PIN, OFF);
 }
@@ -230,10 +253,10 @@ void shutter_cb() {
   static byte previous_state = OFF;
   static  unsigned long begin_time = 0;
   static unsigned long end_time = 0;
- if( measure_is_open) {
-  #if defined PERF_DEBUG
-  unsigned long t1 = micros();
-  #endif
+  if( measure_is_open) {
+#if defined PERF_DEBUG
+    unsigned long t1 = micros();
+#endif
     
     ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
       byte current_state = digitalRead(SENSOR_PIN);
@@ -247,7 +270,13 @@ void shutter_cb() {
     #endif // defined DEBUG        
         } else if((current_state == OFF) && (begin_time !=0) ){ // current_state==OFF but prevent close before open
           end_time = micros();  
+  #if defined USE_1M_RESISTOR
+          // A 1M Ohm resistor is too high and causes delay in phototransistor discharge. 
+          // This delay is almost the same whatever the mesure, so just substract it
+          duration = end_time - begin_time - HW_DELAY;
+  #else
           duration = end_time - begin_time;
+  #endif // defined USE_1M_RESISTOR
           // reset measurement
           begin_time = end_time = 0;       
           event_type = CLOSING;
