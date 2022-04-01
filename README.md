@@ -26,6 +26,9 @@ The Baby Shutter Tester principles are the same as the open source version ones.
 ## Video presentation
 [![Presentation YouTube](baby_shutter_tester/images/YoutTubeVideo.jpg)](https://youtu.be/0uQaNf9IJO4)
 
+## Accuracy
+The accuracy of the Baby Shutter Tester is checked using [a dedicated benchmark](https://github.com/sebastienroy/shutter_meta_tester). The measured accuracy of the Baby Shutter Tester is better than 1/10th of stop at 1/4000s speed.
+
 ## Where to buy 
 [eBay link](https://www.ebay.fr/itm/203877867266)
 
