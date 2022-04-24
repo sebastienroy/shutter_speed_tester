@@ -15,14 +15,14 @@ Le boitier principal comporte
 - Un écran d'affichage
 - Une LED d'éclairage (sur le côté droit)
 - Un port micro USB (sur le côté gauche)
-- Une trappe à pile LR6 (à l’arrière)  
+- Une trappe à pile LR03(AAA) (à l’arrière)  
   
 Le capteur comporte 
 - Un support au format 35 mm
 - Un phototransistor
 - Un adaptateur moyen format
 
-L'appareil peut être alimenté électriquement soit par un câble micro USB, soit par deux piles LR6 (AA). Ces dernières se mettent en place à l’arrière de l’appareil, en ouvrant la trappe plastique qui recouvre leur logement.  
+L'appareil peut être alimenté électriquement soit par un câble micro USB, soit par deux piles LR03 (AAA). Ces dernières se mettent en place à l’arrière de l’appareil, en ouvrant la trappe plastique qui recouvre leur logement.  
 Il est nécessaire d'enlever les piles  
 - Lorsque vous n'utilisez pas l'appareil pendant une durée prolongée
 - Lorsque vous connectez l'appareil sur le port USB  
