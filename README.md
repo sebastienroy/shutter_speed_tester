@@ -34,6 +34,6 @@ The accuracy of the Baby Shutter Tester is checked using [a dedicated benchmark]
 
 ## User manual
 
-[User Manual (English)](baby_shutter_tester/BabyShutterTesterUserManual_en.md)
+[User Manual (English)](baby_shutter_tester/BabyShutterTesterUserManual_en.md)  
 [User Manual (French)](baby_shutter_tester/BabyShutterTesterUserManual.md)
 
