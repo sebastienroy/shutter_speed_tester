@@ -36,7 +36,7 @@ Il est prévu pour fonctionner sur une plage de température de 5 à 40°C.
 
 Ouvrez le dos de votre appareil photo.  
 Placez le capteur à l’arrière de l’appareil photo, à la place de la pellicule. Pour les appareils moyen format, utilisez l’adaptateur fournit. Veillez à centrer le capteur, et maintenez-le à l’aide d’un élastique ou de tout autre dispositif.  
-Placez le boitier en face de votre appareil photo, en le rehaussant éventuellement, afin que la LED d’illumination de l’appareil soit bien en face du capteur. La LED du Baby Shutter Tester a un cône d’éclairage de 20°. Il est nécessaire pour réaliser les mesures que le capteur soit situé dans ce cône d’éclairage.  
+Placez le boitier en face de votre appareil photo, en le rehaussant éventuellement, afin que la LED d’illumination de l’appareil soit bien en face du capteur. La LED du Baby Shutter Tester a un cône d’éclairage de 20°. Il est nécessaire pour réaliser les mesures que le capteur soit situé dans ce cône d’éclairage, et à une distance maximum de 6cm de la LED.  
 - Allumez le baby Shutter Tester. Le boitier affiche "Ready" et la LED d'éclairage est allumée
 - Pour vous assurer que le boitier du Baby Shutter Tester et son capteur sont bien positionnés, utilisez le mode Test (voir chapitre suivant)
 - Sélectionnez la vitesse que vous voulez mesurer sur votre appareil photo
@@ -73,6 +73,16 @@ L'obturateur central a pour caractéristique de fonctionner en trois phases : l'
 Lorsque la pleine ouverture dure longtemps par rapport aux phases d'ouverture et de fermeture, tout va bien.  
 Lorsque ce n'est plus le cas (pour les très hautes vitesses, en pratique uniquement pour la vitesse la plus rapide de l'obturateur), vous pouvez avoir un écart entre la durée d'ouverture mesurée et l'exposition de la pellicule, puisqu'il est impossible de dire à partir de quel seuil le "chronomètre" va être mis en marche. Ce dernier fonctionne en mode "tout ou rien".  
 Il existe toutefois une façon d'estimer le phénomène : Si vous placez le capteur au plus proche de l'obturateur (coté objectif, donc), vous pouvez faire des mesures au centre et des mesures en périphérie. La différence de valeur mesurée vous donnera la vitesse d'ouverture et de fermeture de l'obturateur
+
+# Précision des mesures
+
+Comme tout instrument de mesure, les résultats du Baby Shutter Tester sont entachés d’une certaine incertitude. Il est essentiel que l’opérateur soit conscient des limitations de l’instrument et de ses conditions d’utilisation.  
+L’incertitude de mesure du Baby Shutter Tester provient pour l’essentiel du comportement électronique du phototransistor utilisé pour déterminer l’ouverture ou la fermeture de l’obturateur. Un peu comme une jauge, qui met du temps à détecter l’arrivée ou la sortie d’eau dans un réservoir, un phototransistor met un peu de temps pour se « remplir » et se « vider ». Les temps de commutation (ouverture / fermeture) dépendent notamment de l’intensité de la lumière reçue. Par analogie, une jauge ne mettra pas le même temps à détecter la présence d’eau selon que le débit d’arrivée d’eau soit élevé ou faible. 
+
+**Lorsque le capteur est placé en face de sa LED, à une distance comprise entre 3 et 6 cm, avec une lumière ambiante d’intérieur, l’incertitude de mesure** (l’écart entre le phénomène physique et sa mesure) **est inférieure à 25 microsecondes**. Cet écart est évalué en atelier à l’aide d’un banc de mesure dédié, et est vérifié en sortie de fabrication de l’appareil.  
+
+Lorsque les conditions ci-dessus sont remplies, il est donc possible de réaliser des mesures au 4000e de seconde avec une précision d’un dixième de diaphragme.  
+
 
 # Contact
 
