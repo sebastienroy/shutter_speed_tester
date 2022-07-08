@@ -74,6 +74,15 @@ However, there is a way to estimate the phenomenon: If you place the sensor as c
 The focal plane shutter uses two curtains which move successively, in the same direction. The opening of the first is followed by the closing of the second. If the two curtains move at the same speed over the entire surface, the exposure is uniform and is given by the measurement of the Shutter Speed Tester.  
 If the two curtains move at different speeds, this gives exposure differences depending on the parts of the photo. To detect such a phenomenon, position the sensor at different positions on the back of the camera to make your measurements and check that the measurement values are identical regardless of the location of the sensor.  
 
+# Measurement accuracy
+
+Like any measuring instrument, the results of the Baby Shutter Tester are subject to some uncertainty. It is essential for the operator be aware of the limitations of the instrument and its conditions of use.  
+The Baby Shutter Tester's measurement uncertainty comes mainly from the electronic behavior of the phototransistor used to determine whether the shutter is open or closed. A bit like a gauge, which takes time to detect the arrival or exit of water in a tank, a phototransistor takes a little time to “fill” and “empty”. The switching times (opening / closing) depend in particular on the intensity of the light received. By analogy, a gauge will not take the same time to detect the presence of water depending on whether the water inlet flow is high or low.  
+
+**When the sensor is placed in front of its LED, at a distance between 3 and 6 cm, with indoor ambient light, the measurement uncertainty** (the difference between the physical phenomenon and its measurement) **is less than 25 microsecond**s. This difference is evaluated using a dedicated measuring bench, and is checked after the device is manufactured.  
+
+When the above conditions are met, it is therefore possible to take measurements of up to the 4000th of a second with an accuracy of 1/10th stop.
+
 # Contact
 For any additional information or questions you may have about the Baby Shutter Tester, you can refer to the following web address:  
 https://github.com/sebastienroy/shutter_speed_tester  
