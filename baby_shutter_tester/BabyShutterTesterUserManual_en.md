@@ -81,7 +81,7 @@ The Baby Shutter Tester's measurement uncertainty comes mainly from the electron
 
 **When the sensor is placed in front of its LED, at a distance between 3 and 6 cm, with indoor ambient light, the measurement uncertainty** (the difference between the physical phenomenon and its measurement) **is less than 25 microsecond**s. This difference is evaluated using a dedicated measuring bench, and is checked after the device is manufactured.  
 
-When the above conditions are met, it is therefore possible to take measurements of up to the 4000th of a second with an accuracy of 1/10th stop.
+When the above conditions are met, it is therefore possible to take measurements of speeds up to the 4000th of a second with an accuracy of 1/10th stop.
 
 # Contact
 For any additional information or questions you may have about the Baby Shutter Tester, you can refer to the following web address:  
