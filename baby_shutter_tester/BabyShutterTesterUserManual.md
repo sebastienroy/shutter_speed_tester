@@ -81,7 +81,7 @@ L’incertitude de mesure du Baby Shutter Tester provient pour l’essentiel du 
 
 **Lorsque le capteur est placé en face de sa LED, à une distance comprise entre 3 et 6 cm, avec une lumière ambiante d’intérieur, l’incertitude de mesure** (l’écart entre le phénomène physique et sa mesure) **est inférieure à 25 microsecondes**. Cet écart est évalué en atelier à l’aide d’un banc de mesure dédié, et est vérifié en sortie de fabrication de l’appareil.  
 
-Lorsque les conditions ci-dessus sont remplies, il est donc possible de réaliser des mesures de vitesses jusqu'au 4000e de seconde avec une précision d’un dixième de diaphragme.  
+Lorsque les conditions ci-dessus sont remplies, il est donc possible de réaliser des mesures de vitesses jusqu'au **4000e de seconde avec une précision d’un dixième de diaphragm**e.  
 
 
 # Contact
