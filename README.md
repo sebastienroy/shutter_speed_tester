@@ -1,6 +1,6 @@
 # shutter_speed_tester
 
-The shutter spped tester is a project which goal is to design and build a tool that allows to test the shutter speed accuracy of a film camera
+The shutter speed tester is a project which goal is to design and build a tool that allows to test the shutter speed accuracy of a film camera
 
 
 
