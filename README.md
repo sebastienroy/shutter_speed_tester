@@ -29,7 +29,7 @@ The Baby Shutter Tester principles are the same as the open source version ones.
 ## Accuracy
 The accuracy of the Baby Shutter Tester is checked using [a dedicated benchmark](https://github.com/sebastienroy/shutter_meta_tester).  
 The tests show the the tool can be used hand held with a good accuracy at speeds up to 1/250th of a second.  
-For speed equal or higher than 1/500, the best precion is achieved using a procedure detailed [in the documentation](baby_shutter_tester/BabyShutterTesterUserManual.md) and [in this video](https://youtu.be/vWWtHFmMRck).  
+For speed equal or higher than 1/500, the best precision is achieved using a procedure detailed [in the documentation](baby_shutter_tester/BabyShutterTesterUserManual.md) and [in this video](https://youtu.be/vWWtHFmMRck).  
 
 ## Where to buy 
 [eBay link](https://www.ebay.fr/itm/203877867266)
