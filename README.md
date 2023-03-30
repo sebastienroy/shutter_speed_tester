@@ -38,5 +38,5 @@ For speed equal or higher than 1/500, the best precision is achieved using a pro
 
 [User Manual (English)](baby_shutter_tester/BabyShutterTesterUserManual_en.md)  
 [User Manual (French)](baby_shutter_tester/BabyShutterTesterUserManual.md)  
-[User Manual (German)](baby_shutter_tester/documentation/BabyShutterTester_Manual_de.pdf)
+[User Manual (German)](baby_shutter_tester/BabyShutterTesterUserManual_de.md)
 
