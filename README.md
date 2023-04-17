@@ -40,3 +40,11 @@ For speed equal or higher than 1/500, the best precision is achieved using a pro
 [User Manual (French)](baby_shutter_tester/BabyShutterTesterUserManual.md)  
 [User Manual (German)](baby_shutter_tester/BabyShutterTesterUserManual_de.md)
 
+# Coming soon : The Shutter Lover
+
+The Shutter Lover is a tool specilized in the measurement of the translation speed of the curtains of focal plane shutters.  
+This product is currently under development and is expected to be released during June 2023.  
+
+Here is a short teaser :  
+[![Video of the Shutter Lover](baby_shutter_tester/images/YoutTubeVideo.jpg)](https://youtu.be/AOC1KYjHUho)
+
