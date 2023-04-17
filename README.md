@@ -42,7 +42,7 @@ For speed equal or higher than 1/500, the best precision is achieved using a pro
 
 # Coming soon : The Shutter Lover
 
-The Shutter Lover is a tool specilized in the measurement of the translation speed of the curtains of focal plane shutters.  
+The Shutter Lover is a tool specialized in the measurement of the translation speed of the curtains of focal plane shutters.  
 This product is currently under development and is expected to be released during June 2023.  
 
 Here is a short teaser :  
