@@ -46,5 +46,5 @@ The Shutter Lover is a tool specilized in the measurement of the translation spe
 This product is currently under development and is expected to be released during June 2023.  
 
 Here is a short teaser :  
-[![Video of the Shutter Lover](baby_shutter_tester/images/YoutTubeVideo.jpg)](https://youtu.be/AOC1KYjHUho)
+[![Video of the Shutter Lover](shutter_lover/images/ShutterLoverVideoImage.jpg)](https://youtu.be/AOC1KYjHUho)
 
