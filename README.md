@@ -48,3 +48,7 @@ This product is currently under development and is expected to be released durin
 Here is a short teaser :  
 [![Video of the Shutter Lover](shutter_lover/images/ShutterLoverVideoImage.jpg)](https://youtu.be/AOC1KYjHUho)
 
+## User Manual  
+
+[Shutter Lover Manual (French)](shutter_lover/ShutterLoverUserManual_fr.md)
+
