@@ -50,5 +50,6 @@ Here is a short teaser :
 
 ## User Manual  
 
-[Shutter Lover Manual (French)](shutter_lover/ShutterLoverUserManual_fr.md)
+[Shutter Lover Manual (French)](shutter_lover/ShutterLoverUserManual_fr.md)  
+[Shutter Lover Manual (English)](shutter_lover/documentation/ShutterLover_Manual_en.pdf)
 
