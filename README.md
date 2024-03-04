@@ -36,9 +36,7 @@ For speed equal or higher than 1/500, the best precision is achieved using a pro
 
 ## User manual
 
-[User Manual (English)](baby_shutter_tester/BabyShutterTesterUserManual_en.md)  
-[User Manual (French)](baby_shutter_tester/BabyShutterTesterUserManual.md)  
-[User Manual (German)](baby_shutter_tester/BabyShutterTesterUserManual_de.md)
+[User Manual](https://github.com/sebastienroy/shutter_speed_tester/wiki/Shutter-Testers-documentation)
 
 # Just released : The Shutter Lover
 
@@ -52,6 +50,5 @@ Here is a short teaser :
 
 ## User Manual  
 
-[Shutter Lover Manual (French)](shutter_lover/ShutterLoverUserManual_fr.md)  
-[Shutter Lover Manual (English)](shutter_lover/documentation/ShutterLover_Manual_en.pdf)
+[User Manual](https://github.com/sebastienroy/shutter_speed_tester/wiki/Shutter-Testers-documentation)
 
