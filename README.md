@@ -22,7 +22,7 @@ The resulting tester has been tested against two methods described in [shutter m
 With the time slot method (an LED lit during a given time duration), the difference between expected and measured value is about a few tens of microseconds. This error is due mainly to the latency of the phototransistor. This error is small enough to not to be taken into account even at speed up to 1/2000s.  
 With the rotating wheel method, we can observe an error a lot bigger. This error is not due to electronic factors, but results from geometric facts:  
 The sensor of the tester is a bulb of 3mm diameter.  
-The slit width of the curtain shutters is about 3mm large for most common shutter.  
+At 1/1000s, given that the curtains translation speed is about 3m/s, the slit width of the curtain shutters is about 3mm large.  
 When trying to measure a 3mm object with a 3mm sensor, the resulting error is about 100%.  
 **So, because of geometric consideration, the use of such a tester should be reserved for speeds not exceeding 1/250.  
 The conclusion is the same for all testers with a similar sensor that do not provide a calibration mechanism.**  
