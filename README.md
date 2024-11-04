@@ -64,3 +64,6 @@ Here is a short teaser :
 
 [User Manual](https://github.com/sebastienroy/shutter_speed_tester/wiki/Shutter-Testers-documentation)
 
+## Test bench
+
+In order to get the better precision and reproducibility with the tools, it is recommended to use a test bench, such as the one describe [here](testbench/testbench.md).  
