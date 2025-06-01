@@ -46,7 +46,7 @@ The benefits of this characteristics are the following:
 
 
 
-![Baby Shutter Tester image](baby_shutter_tester/images/BabyShutterTester.jpg)
+![Baby Shutter Tester image](baby_shutter_tester/images/bst_mkII.jpg)
 
 ## Video presentation
 [![Presentation YouTube](baby_shutter_tester/images/YoutTubeVideo.jpg)](https://youtu.be/JVzSVh_tT6g)  
