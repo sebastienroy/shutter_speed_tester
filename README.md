@@ -27,30 +27,43 @@ When trying to measure a 3mm object with a 3mm sensor, the resulting error is ab
 **So, because of geometric consideration, the use of such a tester should be reserved for speeds not exceeding 1/250.  
 The conclusion is the same for all testers with a similar sensor that do not provide a calibration mechanism.**  
 
-# Baby Shutter Tester
+# Baby Shutter Tester mark II
 Many people, interested to get such a device but who don't feel skilled enough to build their own copy, asked the author of the project to build it for them.  
-This resulted to the commercial version of the tool, the Baby Shutter Tester.  
-The Baby Shutter Tester principles are the same as the open source version ones. However, its design has been reworked in order to be smaller and easier to produce in small series.  
-In addition, a self-calibration mechanism has been introduced, that allows a resulting precision of a few microseconds. This allows to use the tester in confidence at speeds of up to 1/2000s.
+This resulted to the commercial version of the tool, the Baby Shutter Tester (mark I).  
+The Baby Shutter Tester was regularly improved, and its main additional feature was the ability to self calibrate.  **The self-calibration mechanism allowed a precision of a few microseconds, instead of 1 stop at high speeds.**  
+However, the precision brought by the self-calibration procedure required to follow a very specific process, difficult to implement outside a workshop.  
+
+So, a completely reworked version has been designed: the **Baby Shutter Tester Mark II.**  
+The speed measurement method impleted by this new version is completely different: instead of starting a timer at a given light illumination threshold, the tester takes into account all the light variations that hits its sensor.  
+This allows to take into account high speed ranges, where the shutter cannot be considered as a perfect shutter, i.e. the cases where the shutter cannot be aproximated to an on/off mechanism.  
+This method is similar to the method used by the Kyoritsu legacy professional shutter tester.  
+In addition, the Baby Shutter Tester Marks II meets all the recommendations of the ISO-516:2014 standard. Not only the testing method but also all the measurement precision requirement described by the standard.  
+
+The benefits of this characteristics are the following:
+- An extreme accuracy
+- The accuracy is obtained without calibration procedure
+- Using the optional light source with diffuser, the tester can also measure without bias central shutters.
+
+
 
 ![Baby Shutter Tester image](baby_shutter_tester/images/BabyShutterTester.jpg)
 
 ## Video presentation
-[![Presentation YouTube](baby_shutter_tester/images/YoutTubeVideo.jpg)](https://youtu.be/0uQaNf9IJO4)
+[![Presentation YouTube](baby_shutter_tester/images/YoutTubeVideo.jpg)](https://youtu.be/JVzSVh_tT6g)  
 
-## Accuracy
-The accuracy of the Baby Shutter Tester is checked using [a dedicated benchmark](https://github.com/sebastienroy/shutter_meta_tester).  
-The tests show the the tool can be used hand held with a good accuracy at speeds up to 1/250th of a second.  
-For speed equal or higher than 1/500, the best precision is achieved using a procedure detailed [in the documentation](baby_shutter_tester/BabyShutterTesterUserManual.md) and [in this video](https://youtu.be/lVasohjJ9ZQ).  
-
+## Accuracy test methods
+The accuracy of the Baby Shutter Tester mark II is checked using 
+- the geometrical test method described in the ISO-516-2014 standard
+- [a dedicated benchmark](https://github.com/sebastienroy/shutter_meta_tester).
+ 
 ## Where to buy 
-[eBay link](https://www.ebay.fr/itm/203877867266)
+[eBay link](https://www.ebay.fr/itm/205397044799)
 
 ## User manual
 
 [User Manual](https://github.com/sebastienroy/shutter_speed_tester/wiki/Shutter-Testers-documentation)
 
-# Just released : The Shutter Lover
+# Curtain travel time measurement: The Shutter Lover
 
 The Shutter Lover is a tool specialized in the measurement of the travel time of the curtains of focal plane shutters.  
 The measurement of the curtain travel time is necessary for camera repairers, in order to be able to ajust the springs of each of the curtains.  
@@ -66,4 +79,4 @@ Here is a short teaser :
 
 ## Test bench
 
-In order to get the better precision and reproducibility with the tools, it is recommended to use a test bench, such as the one describe [here](testbench/testbench.md).  
+In order to get the better precision and reproducibility with the shutter Lover, it is recommended to use a test bench, such as the one describe [here](testbench/testbench.md).  
