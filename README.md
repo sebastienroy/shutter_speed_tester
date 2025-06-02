@@ -37,7 +37,7 @@ So, a completely reworked version has been designed: the **Baby Shutter Tester M
 The speed measurement method impleted by this new version is completely different: instead of starting a timer at a given light illumination threshold, the tester takes into account all the light variations that hits its sensor.  
 This allows to take into account high speed ranges, where the shutter cannot be considered as a perfect shutter, i.e. the cases where the shutter cannot be aproximated to an on/off mechanism.  
 This method is similar to the method used by the Kyoritsu legacy professional shutter tester.  
-In addition, the Baby Shutter Tester Marks II meets all the recommendations of the ISO-516:2014 standard. Not only the testing method but also all the measurement precision requirement described by the standard.  
+In addition, the Baby Shutter Tester Marks II meets all the recommendations of the ISO-516:2014 standart. Not only the testing method but also all the measurement precision requirement described by the standart.  
 
 The benefits of this characteristics are the following:
 - An extreme accuracy
@@ -53,7 +53,7 @@ The benefits of this characteristics are the following:
 
 ## Accuracy test methods
 The accuracy of the Baby Shutter Tester mark II is checked using 
-- the geometrical test method described in the ISO-516-2014 standard
+- the geometrical test method described in the ISO-516-2014 standart
 - [a dedicated benchmark](https://github.com/sebastienroy/shutter_meta_tester).
  
 ## Where to buy 
