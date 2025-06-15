@@ -2,7 +2,7 @@
 
 The shutter speed tester is a project which goal is to design and build a tool that allows to test the shutter speed accuracy of a film camera
 
-
+![Shutter Speed Tester for Film Cameras in FreeCAD](design/images/assembly-screenshot-transparent.png)
 
 When people passionated with old film cameras want to use their camera to shoot film, this sometimes results in an over or an under exposed film.  
 This is usually due to the speed of the camera shutter that is not any more accurate. In order to check the shutter speed accuracy, the camera owner has to compare the actual opening time of the shutter with the expected one.  
