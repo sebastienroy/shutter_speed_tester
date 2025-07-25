@@ -44,6 +44,7 @@ The benefits of this characteristics are the following:
 - The accuracy is obtained without calibration procedure
 - Using the optional light source with diffuser, the tester can also measure central (leaf) shutters without any bias.
 
+More information on https://photographyelectronics.com  
 
 
 ![Baby Shutter Tester image](baby_shutter_tester/images/bst_mkII.jpg)
@@ -57,6 +58,7 @@ The accuracy of the Baby Shutter Tester mark II is checked using
 - [a dedicated benchmark](https://github.com/sebastienroy/shutter_meta_tester).
  
 ## Where to buy 
+https://photographyelectronics.com/shop/  
 [eBay link](https://www.ebay.fr/itm/205397044799)
 
 ## User manual
@@ -68,7 +70,9 @@ The accuracy of the Baby Shutter Tester mark II is checked using
 The Shutter Lover is a tool specialized in the measurement of the travel time of the curtains of focal plane shutters.  
 The measurement of the curtain travel time is necessary for camera repairers, in order to be able to ajust the springs of each of the curtains.  
 The goal is to obtain an homogeneous travel time of the two curtains, with values in accordance with the manufacturer recommendations.  
-This product is available for [purchase on ebay](https://www.ebay.fr/itm/204344103169).  
+
+Shop: https://photographyelectronics.com/shop/  
+This product is also available for [purchase on ebay](https://www.ebay.fr/itm/204344103169).  
 
 Here is a short teaser :  
 [![Video of the Shutter Lover](shutter_lover/images/ShutterLoverVideoImage.jpg)](https://youtu.be/AOC1KYjHUho)
