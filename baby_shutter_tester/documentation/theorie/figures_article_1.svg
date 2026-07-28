@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="figures_article_1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="399.51533"
+     inkscape:cy="802.91975"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid2"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+    <sodipodi:guide
+       position="0,297"
+       orientation="0,793.70079"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="210,297"
+       orientation="1122.5197,0"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="210,0"
+       orientation="0,-793.70079"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-1122.5197,0"
+       id="guide5"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_4"
+       preserveAspectRatio="xMidYMid"
+       id="pattern14"
+       patternTransform="matrix(0.28284271,0.28284271,-0.28284271,0.28284271,19.05,-20.6375)"
+       x="0"
+       y="0" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_4"
+       preserveAspectRatio="xMidYMid"
+       id="pattern12"
+       patternTransform="matrix(0.28284271,0.28284271,-0.28284271,0.28284271,0,0)"
+       x="0"
+       y="0" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="5"
+       height="1"
+       patternTransform="translate(0,0) scale(2,2)"
+       preserveAspectRatio="xMidYMid"
+       id="Strips1_4"
+       style="fill:#000000"
+       inkscape:stockid="Stripes 05 (1:4)"
+       inkscape:isstock="true"
+       inkscape:label="Rayures 1:4">
+      <rect
+   style="stroke:none"
+   x="0"
+   y="-0.5"
+   width="1"
+   height="2"
+   id="rect158" />
+
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_4-2"
+       preserveAspectRatio="xMidYMid"
+       id="pattern14-2"
+       patternTransform="matrix(0.28284271,0.28284271,-0.28284271,0.28284271,95.382292,-20.240621)"
+       x="0"
+       y="0" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="5"
+       height="1"
+       patternTransform="translate(0,0) scale(2,2)"
+       preserveAspectRatio="xMidYMid"
+       id="Strips1_4-2"
+       style="fill:#000000"
+       inkscape:stockid="Stripes 05 (1:4)"
+       inkscape:isstock="true"
+       inkscape:label="Rayures 1:4">
+      <rect
+   style="stroke:none"
+   x="0"
+   y="-0.5"
+   width="1"
+   height="2"
+   id="rect158-8" />
+
+    </pattern>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-9" />
+    </marker>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_4-2-7"
+       preserveAspectRatio="xMidYMid"
+       id="pattern14-2-5"
+       patternTransform="matrix(0.28284271,0.28284271,-0.28284271,0.28284271,22.489584,64.293751)"
+       x="0"
+       y="0" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="5"
+       height="1"
+       patternTransform="translate(0,0) scale(2,2)"
+       preserveAspectRatio="xMidYMid"
+       id="Strips1_4-2-7"
+       style="fill:#000000"
+       inkscape:stockid="Stripes 05 (1:4)"
+       inkscape:isstock="true"
+       inkscape:label="Rayures 1:4">
+      <rect
+   style="stroke:none"
+   x="0"
+   y="-0.5"
+   width="1"
+   height="2"
+   id="rect158-8-9" />
+
+    </pattern>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-5-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-9-5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 154.46968,74.09072 v 20.216164 h 35.10937"
+       id="path1"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.311004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 158.86138,91.117964 c 0,0 1.16082,-0.0139 1.83786,-0.004 1.93045,0.0288 3.33836,-3.27725 4.16581,-5.17971 1.28074,-2.94466 2.12194,-4.80612 3.00278,-4.80859 1.3283,-0.004 1.45614,0.011 2.66458,1.8e-4 1.20843,-0.0109 1.67469,1.90855 2.85011,4.75297 0.83382,2.05055 2.15264,5.22294 4.05325,5.23784 0.87778,0.007 1.81293,0.005 1.81293,0.005"
+       id="path2"
+       sodipodi:nodetypes="cssszcsc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect2"
+       width="80"
+       height="80"
+       x="9.6709976"
+       y="10.102699" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 20.580781,69.76094 c 0,0 3.271809,-0.04858 5.180073,-0.01335 5.441022,0.100925 9.409233,-11.496518 11.741449,-18.170341 3.609811,-10.329803 5.980736,-16.859762 8.463418,-16.868441 3.743817,-0.01335 4.104172,0.03873 7.510192,6.17e-4 3.405999,-0.03813 4.72013,6.695181 8.033117,16.673342 2.350112,7.193292 6.067243,18.321983 11.4242,18.374256 2.474013,0.02421 5.109766,0.01613 5.109766,0.01613"
+       id="path2-5"
+       sodipodi:nodetypes="cssszcsc" />
+    <g
+       id="g5"
+       transform="translate(-2.625,1.75)">
+      <path
+         style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="M 17.777449,18.382381 V 78.05567 H 86.77549"
+         id="path1-5"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 16.792566,20.517851 1.025891,-2.205115 1.025892,2.249814"
+         id="path5" />
+      <path
+         style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 85.06965,76.986509 2.20512,1.02589 -2.24982,1.02589"
+         id="path5-3" />
+    </g>
+    <path
+       style="fill:url(#pattern12);fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 114.91667,66.654382 c 0,0 3.27181,-0.04858 5.18007,-0.01335 5.44102,0.100925 9.40923,-11.496518 11.74145,-18.170341 3.60981,-10.329803 5.98074,-16.859762 8.46342,-16.868441 3.74381,-0.01335 4.10417,0.03873 7.51019,6.17e-4 3.406,-0.03813 4.72013,6.695181 8.03312,16.673342 2.35011,7.193292 6.06724,18.321983 11.4242,18.374256 2.47401,0.02421 5.10976,0.01613 5.10976,0.01613"
+       id="path2-5-6"
+       sodipodi:nodetypes="cssszcsc" />
+    <g
+       id="g22">
+      <rect
+         style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="rect2-3"
+         width="80"
+         height="80"
+         x="9.6750011"
+         y="115.50833" />
+      <g
+         id="g21">
+        <text
+           xml:space="preserve"
+           style="font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="11.354166"
+           y="183.39375"
+           id="text12"><tspan
+             sodipodi:role="line"
+             id="tspan12"
+             style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+             x="11.354166"
+             y="183.39375">Figure 1 : l'exposition (H) est le produit de</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+             x="11.354166"
+             y="187.80348"
+             id="tspan16">l'intensité lumineuse par le temps </tspan><tspan
+             sodipodi:role="line"
+             style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+             x="11.354166"
+             y="192.2132"
+             id="tspan17">d'exposition</tspan></text>
+        <g
+           id="g20">
+          <text
+             xml:space="preserve"
+             style="font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;inline-size:0;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             x="61.038822"
+             y="193.61127"
+             id="text12-6"
+             transform="translate(-25.4,-22.754167)"><tspan
+               id="tspan12-5"
+               style="font-size:3.175px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+               x="61.038822"
+               y="193.61127">Temps d'exposition (t)</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             x="-164.24268"
+             y="27.84894"
+             id="text13"
+             transform="rotate(-90)"><tspan
+               sodipodi:role="line"
+               id="tspan13"
+               style="font-size:3.175px;stroke-width:0.1"
+               x="-164.24268"
+               y="27.84894">Intensité lumineuse (E)</tspan></text>
+          <rect
+             style="fill:url(#pattern14);fill-opacity:1;stroke:#000000;stroke-width:0.9;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             id="rect13"
+             width="20.108334"
+             height="20.240625"
+             x="33.998955"
+             y="144.59477" />
+          <path
+             style="fill:#060606;fill-opacity:1;stroke:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle);paint-order:stroke fill markers"
+             d="m 55.297917,134.93749 -7.408334,13.49375"
+             id="path14" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             x="47.095829"
+             y="132.82083"
+             id="text15"><tspan
+               sodipodi:role="line"
+               id="tspan15"
+               style="stroke:none;stroke-width:0.9"
+               x="47.095829"
+               y="132.82083">Exposition (H)</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect2-3-1"
+       width="80"
+       height="80"
+       x="100.1625"
+       y="114.97917" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="101.84167"
+       y="182.86459"
+       id="text12-8"><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="101.84167"
+         y="182.86459"
+         id="tspan17-9">Figure 2 : si l'intensité est faible il faut </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="101.84167"
+         y="187.27432"
+         id="tspan19">augmenter le temps pour garder la même</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="101.84167"
+         y="191.68404"
+         id="tspan20">exposition </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;inline-size:0;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="61.038822"
+       y="193.61127"
+       id="text12-6-2"
+       transform="translate(68.394791,-22.886455)"><tspan
+         id="tspan12-5-5"
+         style="font-size:3.175px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="61.038822"
+         y="193.61127">Temps d'exposition (t)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="-165.69789"
+       y="105.23957"
+       id="text13-0"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan13-9"
+         style="font-size:3.175px;stroke-width:0.1"
+         x="-165.69789"
+         y="105.23957">Intensité lumineuse (E)</tspan></text>
+    <rect
+       style="fill:url(#pattern14-2);fill-opacity:1;stroke:#000000;stroke-width:0.9;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect13-0"
+       width="65.616676"
+       height="6.2177033"
+       x="110.19897"
+       y="158.88228"
+       ry="0" />
+    <path
+       style="fill:#060606;fill-opacity:1;stroke:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-5);paint-order:stroke fill markers"
+       d="m 148.43125,143.13958 -7.40834,13.49375"
+       id="path14-4" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="140.22917"
+       y="141.02292"
+       id="text15-0"><tspan
+         sodipodi:role="line"
+         id="tspan15-8"
+         style="stroke:none;stroke-width:0.9"
+         x="140.22917"
+         y="141.02292">Exposition (H)</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect2-3-1-1"
+       width="80"
+       height="80"
+       x="9.9395838"
+       y="200.175" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="11.618752"
+       y="268.06042"
+       id="text12-8-7"><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="11.618752"
+         y="268.06042"
+         id="tspan17-9-3">Figure 3 : si l'intensité est forte, il faut </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="11.618752"
+         y="272.47015"
+         id="tspan19-2">réduire le temps pour garder la même</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="11.618752"
+         y="276.87988"
+         id="tspan20-2">exposition </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;inline-size:0;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="61.038822"
+       y="193.61127"
+       id="text12-6-2-9"
+       transform="translate(-31.353125,62.044792)"><tspan
+         id="tspan12-5-5-9"
+         style="font-size:3.175px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         x="61.038822"
+         y="193.61127">Temps d'exposition (t)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="-242.03018"
+       y="33.140614"
+       id="text13-0-5"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan13-9-2"
+         style="font-size:3.175px;stroke-width:0.1"
+         x="-242.03018"
+         y="33.140614">Intensité lumineuse (E)</tspan></text>
+    <rect
+       style="fill:url(#pattern14-2-5);fill-opacity:1;stroke:#000000;stroke-width:0.9;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect13-0-9"
+       width="9.7895908"
+       height="39.952076"
+       x="37.306263"
+       y="209.41769"
+       ry="0" />
+    <path
+       style="fill:#060606;fill-opacity:1;stroke:#000000;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-5-1);paint-order:stroke fill markers"
+       d="m 59.795837,220.79479 -10.451048,6.74687"
+       id="path14-4-4"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="51.593758"
+       y="218.67813"
+       id="text15-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan15-8-9"
+         style="stroke:none;stroke-width:0.9"
+         x="51.593758"
+         y="218.67813">Exposition (H)</tspan></text>
+  </g>
+</svg>
