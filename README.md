@@ -37,6 +37,11 @@ So, a completely reworked version has been designed: the **Baby Shutter Tester M
 The speed measurement method impleted by this new version is completely different: instead of starting a timer at a given light illumination threshold, the tester takes into account all the light variations that hits its sensor.  
 This allows to take into account high speed ranges, where the shutter cannot be considered as a perfect shutter, i.e. the cases where the shutter cannot be aproximated to an on/off mechanism.  
 This method is similar to the method used by the Kyoritsu legacy professional shutter tester.  
+Details about the measurement method can be find here:  
+https://photographyelectronics.com/methods-for-measuring-shutter-speed/  
+The experimental results that confirm the accuracy of the method and of the electronic circuits of the Baby Shutter Tester mkII can be read here;  
+https://photographyelectronics.com/experimental-measurement-of-the-shutter-speed-of-a-leaf-shutter/
+
 In addition, the Baby Shutter Tester Marks II meets all the recommendations of the ISO-516:2019 standard. Not only the testing method but also all the measurement precision requirement described by the standard.  
 
 The benefits of this characteristics are the following:
